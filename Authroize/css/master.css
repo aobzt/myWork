@@ -1,0 +1,2825 @@
+/*1500~3000*/
+@media only screen and (min-width: 1500px) and (max-width: 3000px) {
+
+	html
+	{
+
+		overflow-x: hidden;
+		overflow-y: auto;
+		font-family: Arial, sans-serif;
+
+	}
+
+	body
+	{
+
+		margin: 0px;
+		background: url("../image/pexels-karolina-grabowska-4041424.jpg");
+		background-size: cover;
+		background-position: center;
+  	background-repeat:  no-repeat;
+  
+	}
+
+	.mask
+	{
+	
+		position: absolute; 
+		display: none;
+		justify-content: center;
+		align-items: center; 
+		width: 100%; 
+		height: 100%; 
+		z-index: 5; 
+		background-color: rgba(0, 0, 0, 0.5); 
+	
+	}
+
+	.ill-container
+	{
+	
+		width: 30%; 
+		height: 30%; 
+		border-radius: 20px;
+		background-color: white;
+	
+	}
+
+	.ill-content
+	{
+	
+		display: flex; 
+		margin: 15% 10% 10% 10%; 
+		justify-content: center;
+		font-size: 24px;
+		font-weight: bold;
+	
+	}
+
+	.ill-close
+	{
+	
+		display: flex; 
+		margin: 0px 40%;
+		width: 20%; 
+		height: 40px;
+		line-height: 40px;
+		font-size: 20px;
+		justify-content: center;
+		border-radius: 10px;
+		background-color: #9868F0; 
+		cursor: pointer;
+	
+	}
+
+	.ill-close:hover
+	{
+	
+		background-color: #7B68F0;
+	
+	}
+
+	.ill-close:active
+	{
+	
+		background-color: #5D68F0;
+	
+	}
+
+	.bar
+	{
+
+		display: flex;
+		background-color: #2894FF;
+		box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
+
+	}
+
+	.bar-image
+	{
+
+		display: inline-block;
+		padding: 15px;
+
+	}
+
+	.logo
+	{	
+
+		border-radius: 50%;
+		height: 50px;
+		width: 50px;
+
+	}
+
+	.bar-title
+	{
+
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+
+	}
+	
+	.bar-openside
+	{
+	
+		display: none;
+		
+	}
+
+
+	.company-ch-name
+	{
+
+		font-size: 20px;
+		font-weight: bold;
+		color: white;
+
+	}
+
+	.company-en-name
+	{
+	
+		color: white;
+	
+	}
+
+	workeare
+	{
+
+		display: flex;
+		flex-direction: row;
+		width: 100%;
+
+	}
+
+	.big-container
+	{
+
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		top: 100px;
+		left: 33%;
+
+	}
+
+	.login-title
+	{
+
+		display: inline-block;
+
+	}
+
+	.icon
+	{
+	
+		padding: 8px;
+		display: inline-block;
+		font-size: 27px;
+		color: gray;
+	
+	}
+
+	.caption
+	{
+
+		padding: 0px;
+		margin: 0px;
+		font-size: 23px;
+		font-weight: bold;
+		color: gray;
+
+	}
+
+	.contain
+	{
+
+		display: flex;
+		justify-content: center;
+		align-items: center; 
+
+	}
+
+	.main	
+	{
+
+		display: flex;
+		height: 30vh;
+		width: 30vw;
+		/*background-color: #FFE6FF;*/
+		justify-content: center;
+		align-items: center;
+		padding: 50px;
+		border: 3px solid #66B3FF;
+		border-image: linear-gradient(to top, #66B3FF, #005AB5);
+		border-image-slice: 1;
+		box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5); 
+		background-color: white;
+	
+	}
+
+	.form
+	{
+
+		display: flex;
+		flex-direction: column;
+		/*background-color: #E6CAFF;*/
+		height: 100%;
+		width: 100%;
+
+	}
+
+	.master-login
+	{
+
+		display: flex;
+		flex-direction: column;
+		padding: 30px;
+		font-family: 微軟正黑體;
+
+	}
+
+	.LIcontainer
+	{
+	
+		display: flex;
+		flex-direction: row;
+		margin-bottom: 15px;
+	
+	}
+
+	.label
+	{
+
+		width: 20%;
+		font-size: 20px;
+		font-weight: bold;
+		margin-left: 20px;
+		margin-top: 20px;
+		border: 2px solid black;
+		border-radius: 20px;
+		text-align: center;
+		padding: 1.5px 0px;
+		/*background-color: #DDDDFF;*/
+		color :	#004B97;
+
+	}
+
+	#username, #password 
+	{
+	
+		right: 12px;
+		top: 11.5px;
+  	width: 70%;
+  	height: 40px;
+  	border: none;
+  	padding: 20px;
+  	font-size: 18px;
+  	/*margin: 20px 0px;*/
+  	position: relative;
+  	background-color: transparent;
+  	border-bottom: 2px solid black;
+  	border-image: linear-gradient(to right, black, #66B3FF);
+  	border-image-slice: 1;
+	}
+
+	#username:focus, #password:focus 
+	{
+	
+		outline: none;
+  
+	}	
+
+	#login
+	{
+	
+		display: flex;
+  	align-items: center;
+  	justify-content: center;
+		position: relative;
+		margin-left: 4%;
+		width: 91%;
+		margin-top: 50px;
+		height: 40px;
+		border-radius: 20px;
+		font-size: 20px;
+		font-weight: bold;
+		cursor: pointer;
+		border: none;
+		color: white;
+		background: linear-gradient(to right, #84C1FF, #004B97);
+		box-shadow: 0px 5px 10px #0057ab;
+		transition: background 1s;
+
+	}
+
+	#login:after, #login:before
+	{
+	
+		content: '';
+		position: absolute;
+		top: 1%;
+		left: 0px;
+		width: 56px;
+		height: 100%;
+		z-index: -2;
+		border-radius: 25px;
+		background-color: transparent;
+		align-items: center;
+	
+	}
+
+
+	#login:hover
+	{
+	
+		z-index: 1;
+		background-color: transparent;
+
+	}
+
+	#login:before
+	{
+	
+		transition: 0.3s;
+		background: #7dbbfa;
+		z-index: -1;
+	
+	}
+
+	#login:hover:before
+	{
+	
+		width: 100%;
+	
+	}
+
+	#login:active:before
+	{
+		
+		background-color: #003D79;
+  	background-size: 100%;
+  	box-shadow: 0px 4px 8px #0065c8;
+	
+	}
+
+	.bottombar
+	{
+	
+		display: none;
+		position: absolute;
+		bottom: 0px;
+		right: 0px;
+		color: white;
+		font-size: 18px;
+		font-weight: bold;
+		font-family: "微軟正黑體";
+	
+	}
+
+	.sideMenu-container
+	{
+	
+		display: flex;
+		flex-direction: column;
+		/*padding: 20px 0px;*/
+		width: 15vw;
+		height: 105vh;
+		background: linear-gradient(to bottom, #0072E3, #00CACA);
+	
+	}
+
+	.item-container
+	{
+	
+		display: flex;
+		flex-direction: row;
+		width: 100%;
+		height: 50px;
+		background-color: transparent;
+		cursor: pointer;
+		font-size: 18px;
+	
+	}
+
+	.item-container:hover	
+	{
+			
+		background: linear-gradient(to right, #FF88C2, #FFA488);
+		font-size: 20px;
+			
+	}
+
+	.item-icon
+	{
+	
+		position: relative;
+		top: 25%;
+		left: 5%;
+		width: 5px;
+		height: auto;
+	
+	}
+
+	.item-icon > img
+	{
+	
+		width: 20px;
+	
+	}
+
+	.item-caption
+	{
+	
+		position: relative;
+		top: 25%;
+		left: 17%;
+		font-weight: bold;
+		font-family: "微軟正黑體";
+		color: white;
+	
+	}
+
+	.item-page
+	{
+		
+		position: absolute;
+		right: calc(100% - 14%);
+		margin-top: 0.5%;
+		font-size: 25px;
+		font-weight: bold;
+		font-family:"FontAwesome";
+		color: white;
+	
+	}
+
+	.detial-container
+	{
+	
+		display: none;
+		flex-direction: column;
+		width: auto;
+		background-color: transparent;
+	
+	}
+
+	.detial-caption
+	{
+	
+		padding: 10px;
+		font-size: 16px;
+		cursor: pointer;
+		color: white;
+	
+	}
+
+	.detial-name
+	{
+	
+		position: relative;
+		left: 22%;
+		font-weight: bold;
+		font-family: "微軟正黑體";
+		
+	}
+
+	.detial-caption:hover
+	{
+	
+		background: linear-gradient(to right, #FFFF33, #FFCC22);
+		font-size: 18px;
+		color: black;
+			
+	}
+	
+	.main-container
+	{
+	
+		display: flex;
+		flex-direction: column; 
+		width: 85%; 
+		/*margin: calc((100% - 98%) / 2); */
+		/*border-radius: 20px;*/
+		background-color: rgb(8, 8, 8, 0.2); 
+		/*box-shadow: 0px 5px 5px 5px rgb(0, 0, 0, 0.5);*/
+	
+	}
+
+	/*首頁*/
+	.home-container
+	{
+		
+		margin: 5%;
+		border-radius: 20px;
+		background-color: white;
+		
+	}
+	
+	.home
+	{
+		
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		grid-gap: 20px;
+		margin: 5%;
+		/*background-color: red;*/
+		
+	}
+	
+	.home-item
+	{
+		
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+		border-radius: 20px;
+		background-color: #04c1d6;
+	
+		
+	}
+	
+	.shortcut-icon
+	{
+		
+		display: flex;
+		flex-direction: column;
+		
+	}
+	
+	.sc-icon
+	{
+		
+		position: relative;
+		margin: 2%;
+		
+	}
+	
+	.sc-icon > img
+	{
+		
+		width: 50px;
+		
+	}
+	
+	.sc-title
+	{
+		
+		font-size: 24px;
+		font-weight: bold;
+		color: #000570;
+		
+	}
+	
+	.shortcut
+	{
+		
+		display: flex;
+		flex-direction: column;
+		margin: 2%;
+		
+	}
+	
+	.shortcut-name
+	{
+		
+		margin: 2px;
+		font-size: 18px;
+		font-weight: bold;
+		border: 1px solid #888888;
+		border-radius: 5px;
+		color: #0051FA;
+		background-color: white;
+		cursor: pointer;
+		
+	}
+	
+	.shortcut-name:hover
+	{
+		
+		background-color: orange;
+		
+	}
+
+	/*工作區*/
+	.function-title
+	{
+	
+		margin: 2%;  
+		padding: 20px 10px; 
+		text-align: center;
+		font-size: 30px;
+		font-weight: bold;
+		border-radius: 40px;
+		background: linear-gradient(to right, #56D8E1, #54A4E6);
+		color: black;
+		
+	}
+
+	.work-container
+	{
+	
+		height: auto;
+		margin: 0px 2%; 
+		padding: 2%; 
+		border-radius: 20px;
+		background-color: white;
+	
+	}
+
+	.toolBar
+	{
+	
+		display: flex;
+
+	}
+
+	.search-box
+	{
+	
+		display: flex;
+	
+	}
+
+	.addData, .deleteAll, .search
+	{
+
+		height: 20px;
+		margin-right: 10px;
+		padding: 5px;
+		font-size: 16px;
+		font-weight: bold;
+		font-family:FontAwesome, Arial;
+		border-radius: 5px;
+		background-color: #55A0E6;
+		cursor: pointer;
+		color: white;
+	
+	}
+
+	.addData:hover, .deleteAll:hover, .search:hover
+	{
+	
+		background-color: #558ae6;
+	
+	}
+
+	.input-search
+	{
+	
+		height: 25px;
+		margin-top: 1%;
+	
+	}
+
+	/*表單*/
+
+	tableContent[loc = report_table]
+	{
+	
+		display: table;
+		width: 95%;
+		margin: 0px 40px;
+	
+	}
+
+	tableContent[loc = report_tr]
+	{
+	
+		display: table-row;
+	
+	}
+
+	tableContent[loc = report_td][pos = title]
+	{
+	
+		display: table-cell;
+		padding: 10px 2px;
+		/*background-color: #50E6DA;*/
+		border-bottom: 3px solid #50E6DA;
+		font-size: 22px;
+		font-weight: bold;
+	
+	}
+
+	tableContent[cell = delete]
+	{
+	
+		width: 5%;
+	
+	}
+
+	tableContent[cell = update]
+	{
+	
+		width: 5%;
+	
+	}
+
+	tableContent[loc = report_td][pos *= row_]
+	{
+	
+		display: table-cell;
+		padding: 10px 2px;
+		font-size: 18px;
+	
+	}
+
+	detial_button[id = open_function]
+	{
+	
+		padding: 4px 6px;
+		border-radius: 4px;
+		background-color: #50DEE6;
+		cursor: pointer;
+
+	}
+
+	detial_button[id = open_function]:hover
+	{
+
+		background-color: #50AFE6;
+
+	}
+
+	detial_button[id = open_function]:active
+	{
+
+		background-color: #5078e6;
+
+	}
+
+	.update-container
+	{
+	
+		display: flex; 
+		flex-direction: column; 
+		align-items: center; 
+		background-color: white; 
+		margin: 2%; 
+		border-radius: 20px;
+	
+	}
+
+	.user-update
+	{
+	
+		margin: 2%; 
+		/*background-color: red; */
+		width: 80%; 
+	
+	}
+
+	.update-form
+	{
+	
+		display: flex;  
+		flex-direction: column;
+		margin: 5%;
+		padding: 5%; 
+		border-radius: 10px;
+		background-color: rgba(85, 210, 230, 0.5);
+	
+	}
+
+	.update-label
+	{
+	
+		display: flex;  
+		flex-direction: column;
+		/*background-color: orange;*/
+	
+	}
+
+	.lb-update
+	{
+	
+		margin: 7px 0px;
+		font-size: 18px;
+	
+	}
+
+	.update-input
+	{
+	
+		height: 35px;
+		font-size: 18px;
+	
+	}
+
+	.update
+	{
+	
+		width: 10%;
+		height: 40px;
+		margin-top: 2%;
+		font-size: 16px;
+		font-weight: bold;
+		line-height: 45px;
+		text-align: center;
+		border-radius: 5px;
+		background-color: #55B6E6;
+		cursor: pointer;
+	
+	}
+
+	.update:hover
+	{
+	
+		background-color: #55A0E6;
+	
+	}
+
+	.update:active
+	{
+	
+		background-color: #558ae6;
+	
+	}
+
+	.selection-input
+	{
+	
+		height: 35px;
+		font-size: 18px;
+		cursor: pointer;
+	
+	}
+
+	.selection-input:hover
+	{
+	
+		border: 1.5px solid gray;
+		background-color: #BDDEDE;
+	
+	}
+
+	.selection-container
+	{
+	
+		display: flex; 
+		flex-direction: column;
+	
+	}
+
+	.selection-item-container
+	{
+	
+		display: none; 
+		flex-direction: column; 
+		z-index: 10px;
+		background-color: red;
+	
+	}
+
+	.selection-item
+	{
+	
+		border: 1px solid gray;
+		background-color: white;
+		padding: 10px 5px;
+		font-size: 18px;
+		cursor: pointer;
+	
+	}
+
+	.selection-item:hover
+	{
+	
+		background-color: #BDDEDE;
+	
+	}
+
+	page-container
+	{
+	
+		display: flex;
+		padding: 2px 0px 2px 20px;
+		margin: 1% 2%;
+		border-radius: 10px;
+		background-color: white;
+	
+	}
+
+	page
+	{
+	
+		padding: 5px;
+		margin: 2px;
+		font-weight: bold;
+		/*border: 1px solid black;*/
+		cursor: pointer;
+		
+	}
+
+	page:hover
+	{
+	
+		background-color: orange;
+	
+	}
+
+	page[page=left]
+	{
+
+		font-family:"FontAwesome";
+	
+	}
+
+	page[page=right]
+	{
+
+		font-family:"FontAwesome";
+	
+	}
+}
+
+/*1000~1499*/
+@media only screen and (min-width: 1000px) and (max-width: 1499px) {
+
+	html
+	{
+
+		overflow-x: hidden;
+		overflow-y: auto;
+		font-family: Arial, sans-serif;
+
+	}
+
+	body
+	{
+
+		margin: 0px;
+		background: url("../image/pexels-karolina-grabowska-4041424.jpg");
+		background-size: cover;
+		background-position: center;
+  	background-repeat:  no-repeat;
+  
+	}
+
+	.mask
+	{
+	
+		position: absolute; 
+		display: none;
+		justify-content: center;
+		align-items: center; 
+		width: 100%; 
+		height: 100%; 
+		z-index: 5; 
+		background-color: rgba(0, 0, 0, 0.5); 
+	
+	}
+
+	.ill-container
+	{
+	
+		width: 30%; 
+		height: 30%; 
+		border-radius: 20px;
+		background-color: white;
+	
+	}
+
+	.ill-content
+	{
+	
+		display: flex; 
+		margin: 15% 10% 10% 10%; 
+		justify-content: center;
+		font-size: 24px;
+		font-weight: bold;
+	
+	}
+
+	.ill-close
+	{
+	
+		display: flex; 
+		margin: 0px 40%;
+		width: 20%; 
+		height: 40px;
+		line-height: 40px;
+		font-size: 20px;
+		justify-content: center;
+		border-radius: 10px;
+		background-color: #9868F0; 
+		cursor: pointer;
+	
+	}
+
+	.ill-close:hover
+	{
+	
+		background-color: #7B68F0;
+	
+	}
+
+	.ill-close:active
+	{
+	
+		background-color: #5D68F0;
+	
+	}
+
+	.bar
+	{
+
+		display: flex;
+		background-color: #2894FF;
+		box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
+
+	}
+
+	.bar-image
+	{
+
+		display: inline-block;
+		padding: 15px;
+
+	}
+
+	.logo
+	{	
+
+		border-radius: 50%;
+		height: 50px;
+		width: 50px;
+
+	}
+
+	.bar-title
+	{
+
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+
+	}
+	
+	.bar-openside
+	{
+	
+		display: none;
+		
+	}
+
+	.company-ch-name
+	{
+
+		font-size: 20px;
+		font-weight: bold;
+		color: white;
+
+	}
+
+	.company-en-name
+	{
+	
+		color: white;
+	
+	}
+
+	workeare
+	{
+
+		display: flex;
+		flex-direction: row;
+		width: 100%;
+
+	}
+
+	.big-container
+	{
+
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		top: 100px;
+		left: 33%;
+
+	}
+
+	.login-title
+	{
+
+		display: inline-block;
+
+	}
+
+	.icon
+	{
+	
+		padding: 8px;
+		display: inline-block;
+		font-size: 27px;
+		color: gray;
+	
+	}
+
+	.caption
+	{
+
+		padding: 0px;
+		margin: 0px;
+		font-size: 23px;
+		font-weight: bold;
+		color: gray;
+
+	}
+
+	.contain
+	{
+
+		display: flex;
+		justify-content: center;
+		align-items: center; 
+
+	}
+
+	.main	
+	{
+
+		display: flex;
+		height: 30vh;
+		width: 30vw;
+		/*background-color: #FFE6FF;*/
+		justify-content: center;
+		align-items: center;
+		padding: 50px;
+		border: 3px solid #66B3FF;
+		border-image: linear-gradient(to top, #66B3FF, #005AB5);
+		border-image-slice: 1;
+		box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5); 
+		background-color: white;
+	
+	}
+
+	.form
+	{
+
+		display: flex;
+		flex-direction: column;
+		/*background-color: #E6CAFF;*/
+		height: 100%;
+		width: 100%;
+
+	}
+
+	.master-login
+	{
+
+		display: flex;
+		flex-direction: column;
+		padding: 30px;
+		font-family: 微軟正黑體;
+
+	}
+
+	.LIcontainer
+	{
+	
+		display: flex;
+		flex-direction: row;
+		margin-bottom: 15px;
+	
+	}
+
+	.label
+	{
+
+		width: 20%;
+		font-size: 20px;
+		font-weight: bold;
+		margin-left: 20px;
+		margin-top: 20px;
+		border: 2px solid black;
+		border-radius: 20px;
+		text-align: center;
+		padding: 1.5px 0px;
+		/*background-color: #DDDDFF;*/
+		color :	#004B97;
+
+	}
+
+	#username, #password 
+	{
+	
+		right: 12px;
+		top: 11.5px;
+  	width: 70%;
+  	height: 40px;
+  	border: none;
+  	padding: 20px;
+  	font-size: 18px;
+  	/*margin: 20px 0px;*/
+  	position: relative;
+  	background-color: transparent;
+  	border-bottom: 2px solid black;
+  	border-image: linear-gradient(to right, black, #66B3FF);
+  	border-image-slice: 1;
+	}
+
+	#username:focus, #password:focus 
+	{
+	
+		outline: none;
+  
+	}	
+
+	#login
+	{
+	
+		display: flex;
+  	align-items: center;
+  	justify-content: center;
+		position: relative;
+		margin-left: 4%;
+		width: 91%;
+		margin-top: 50px;
+		height: 40px;
+		border-radius: 20px;
+		font-size: 20px;
+		font-weight: bold;
+		cursor: pointer;
+		border: none;
+		color: white;
+		background: linear-gradient(to right, #84C1FF, #004B97);
+		box-shadow: 0px 5px 10px #0057ab;
+		transition: background 1s;
+
+	}
+
+	#login:after, #login:before
+	{
+	
+		content: '';
+		position: absolute;
+		top: 1%;
+		left: 0px;
+		width: 56px;
+		height: 100%;
+		z-index: -2;
+		border-radius: 25px;
+		background-color: transparent;
+		align-items: center;
+	
+	}
+
+
+	#login:hover
+	{
+	
+		z-index: 1;
+		background-color: transparent;
+
+	}
+
+	#login:before
+	{
+	
+		transition: 0.3s;
+		background: #7dbbfa;
+		z-index: -1;
+	
+	}
+
+	#login:hover:before
+	{
+	
+		width: 100%;
+	
+	}
+
+	#login:active:before
+	{
+		
+		background-color: #003D79;
+  	background-size: 100%;
+  	box-shadow: 0px 4px 8px #0065c8;
+	
+	}
+
+	.bottombar
+	{
+	
+		display: none;
+		position: absolute;
+		bottom: 0px;
+		right: 0px;
+		color: white;
+		font-size: 18px;
+		font-weight: bold;
+		font-family: "微軟正黑體";
+	
+	}
+
+	/*側邊選單*/
+	.sideMenu-container
+	{
+	
+		display: flex;
+		flex-direction: column;
+		/*padding: 20px 0px;*/
+		width: 15vw;
+		height: 105vh;
+		background: linear-gradient(to bottom, #0072E3, #00CACA);
+	
+	}
+
+	.item-container
+	{
+	
+		display: flex;
+		flex-direction: row;
+		width: 100%;
+		height: 50px;
+		background-color: transparent;
+		cursor: pointer;
+		font-size: 16px;
+	
+	}
+
+	.item-container:hover	
+	{
+			
+		background: linear-gradient(to right, #FF88C2, #FFA488);
+		/*font-size: 18px;*/
+			
+	}
+
+	.item-icon
+	{
+		
+		position: relative;
+		top: 35%;
+		left: 3%;
+		width: 5px;
+		height: auto;
+	
+	}
+
+	.item-icon > img
+	{
+	
+		width: 15px;
+	
+	}
+
+	.item-caption
+	{
+	
+		position: relative;
+		top: 30%;
+		left: 12%;
+		font-weight: bold;
+		font-family: "微軟正黑體";
+		color: white;
+	
+	}
+
+	.item-page
+	{
+		
+		position: absolute;
+		right: calc(100% - 14.8%);
+		margin-top: 1%;
+		font-size: 20px;
+		font-weight: bold;
+		font-family:"FontAwesome";
+		color: white;
+	
+	}
+
+	.detial-container
+	{
+	
+		display: none;
+		flex-direction: column;
+		width: auto;
+		background-color: transparent;
+	
+	}
+
+	.detial-caption
+	{
+	
+		padding: 10px;
+		font-size: 14px;
+		cursor: pointer;
+		color: white;
+	
+	}
+
+	.detial-name
+	{
+	
+		position: relative;
+		left: 22%;
+		font-weight: bold;
+		font-family: "微軟正黑體";
+		
+	}
+
+	.detial-caption:hover
+	{
+	
+		background: linear-gradient(to right, #FFFF33, #FFCC22);
+		/*font-size: 16px;*/
+		color: black;
+			
+	}
+
+	.main-container
+	{
+	
+		display: flex;
+		flex-direction: column; 
+		width: 85%; 
+		/*margin: calc((100% - 98%) / 2); */
+		/*border-radius: 20px;*/
+		background-color: rgb(8, 8, 8, 0.2); 
+		/*box-shadow: 0px 5px 5px 5px rgb(0, 0, 0, 0.5);*/
+	
+	}
+
+	/*首頁*/
+	.home-container
+	{
+		
+		margin: 5%;
+		border-radius: 20px;
+		background-color: white;
+		
+	}
+	
+	.home
+	{
+		
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		grid-gap: 20px;
+		margin: 5%;
+		/*background-color: red;*/
+		
+	}
+	
+	.home-item
+	{
+		
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+		border-radius: 20px;
+		background-color: #04c1d6;
+	
+		
+	}
+	
+	.shortcut-icon
+	{
+		
+		display: flex;
+		flex-direction: column;
+		
+	}
+	
+	.sc-icon
+	{
+		
+		position: relative;
+		margin: 2%;
+		
+	}
+	
+	.sc-icon > img
+	{
+		
+		width: 50px;
+		
+	}
+	
+	.sc-title
+	{
+		
+		font-size: 24px;
+		font-weight: bold;
+		color: #000570;
+		
+	}
+	
+	.shortcut
+	{
+		
+		display: flex;
+		flex-direction: column;
+		margin: 2%;
+		
+	}
+	
+	.shortcut-name
+	{
+		
+		margin: 2px;
+		font-size: 18px;
+		font-weight: bold;
+		border: 1px solid #888888;
+		border-radius: 5px;
+		color: #0051FA;
+		background-color: white;
+		cursor: pointer;
+		
+	}
+	
+	.shortcut-name:hover
+	{
+		
+		background-color: orange;
+		
+	}
+
+	/*工作區*/
+	.function-title
+	{
+	
+		margin: 2%;  
+		padding: 20px 10px; 
+		text-align: center;
+		font-size: 30px;
+		font-weight: bold;
+		border-radius: 40px;
+		background: linear-gradient(to right, #56D8E1, #54A4E6);
+		color: black;
+		
+	}
+
+	.work-container
+	{
+	
+		height: auto;
+		margin: 0px 2%; 
+		padding: 2%; 
+		border-radius: 20px;
+		background-color: white;
+	
+	}
+
+	.toolBar
+	{
+	
+		display: flex;
+
+	}
+
+	.search-box
+	{
+	
+		display: flex;
+	
+	}
+
+	.addData, .deleteAll, .search
+	{
+
+		height: 20px;
+		margin-right: 10px;
+		padding: 5px;
+		font-size: 16px;
+		font-weight: bold;
+		font-family:FontAwesome, Arial;
+		border-radius: 5px;
+		background-color: #55A0E6;
+		cursor: pointer;
+		color: white;
+	
+	}
+
+	.addData:hover, .deleteAll:hover, .search:hover
+	{
+	
+		background-color: #558ae6;
+	
+	}
+
+	.input-search
+	{
+	
+		height: 25px;
+		margin-top: 1%;
+	
+	}
+
+	/*表單*/
+
+	tableContent[loc = report_table]
+	{
+	
+		display: table;
+		width: 95%;
+		margin: 0px 40px;
+	
+	}
+
+	tableContent[loc = report_tr]
+	{
+	
+		display: table-row;
+	
+	}
+
+	tableContent[loc = report_td][pos = title]
+	{
+	
+		display: table-cell;
+		padding: 10px 5px;
+		/*background-color: #50E6DA;*/
+		border-bottom: 3px solid #50E6DA;
+		font-size: 20px;
+		font-weight: bold;
+	
+	}
+
+	tableContent[loc = report_td][pos *= row_]:not(tableContent[cell=delete], tableContent[cell=update])
+	{
+	
+		display: table-cell;
+		padding: 10px 2px;
+		font-size: 16px;
+	
+	}
+
+		tableContent[cell = delete]
+	{
+	
+		display: table-cell;
+		width: 6%;
+	
+	}
+
+	tableContent[cell = update]
+	{
+	
+		display: table-cell;
+		width: 6%;
+	
+	}
+
+	detial_button[id = open_function]
+	{
+	
+		padding: 4px 6px;
+		border-radius: 4px;
+		background-color: #50DEE6;
+		cursor: pointer;
+
+	}
+
+	detial_button[id = open_function]:hover
+	{
+
+		background-color: #50AFE6;
+
+	}
+
+	detial_button[id = open_function]:active
+	{
+
+		background-color: #5078e6;
+
+	}
+
+	.update-container
+	{
+	
+		display: flex; 
+		flex-direction: column; 
+		align-items: center; 
+		background-color: white; 
+		margin: 2%; 
+		border-radius: 20px;
+	
+	}
+
+	.user-update
+	{
+	
+		margin: 2%; 
+		/*background-color: red; */
+		width: 80%; 
+	
+	}
+
+	.update-form
+	{
+	
+		display: flex;  
+		flex-direction: column;
+		margin: 5%;
+		padding: 5%; 
+		border-radius: 10px;
+		background-color: rgba(85, 210, 230, 0.5);
+	
+	}
+
+	.update-label
+	{
+	
+		display: flex;  
+		flex-direction: column;
+		/*background-color: orange;*/
+	
+	}
+
+	.lb-update
+	{
+	
+		margin: 7px 0px;
+		font-size: 18px;
+	
+	}
+
+	.update-input
+	{
+	
+		height: 35px;
+		font-size: 18px;
+	
+	}
+
+	.update
+	{
+	
+		width: 10%;
+		height: 40px;
+		margin-top: 2%;
+		font-size: 16px;
+		font-weight: bold;
+		line-height: 45px;
+		text-align: center;
+		border-radius: 5px;
+		background-color: #55B6E6;
+		cursor: pointer;
+	
+	}
+
+	.update:hover
+	{
+	
+		background-color: #55A0E6;
+	
+	}
+
+	.update:active
+	{
+	
+		background-color: #558ae6;
+	
+	}
+
+	.selection-input
+	{
+	
+		height: 35px;
+		font-size: 18px;
+		cursor: pointer;
+	
+	}
+
+	.selection-input:hover
+	{
+	
+		border: 1.5px solid gray;
+		background-color: #BDDEDE;
+	
+	}
+
+	.selection-container
+	{
+	
+		display: flex; 
+		flex-direction: column;
+	
+	}
+
+	.selection-item-container
+	{
+	
+		display: none; 
+		flex-direction: column; 
+		z-index: 10px;
+		background-color: red;
+	
+	}
+
+	.selection-item
+	{
+	
+		border: 1px solid gray;
+		background-color: white;
+		padding: 10px 5px;
+		font-size: 18px;
+		cursor: pointer;
+	
+	}
+
+	.selection-item:hover
+	{
+	
+		background-color: #BDDEDE;
+	
+	}
+
+	page-container
+	{
+	
+		display: flex;
+		padding: 2px 0px 2px 20px;
+		margin: 1% 2%;
+		border-radius: 10px;
+		background-color: white;
+	
+	}
+
+	page
+	{
+	
+		padding: 5px;
+		margin: 2px;
+		font-weight: bold;
+		/*border: 1px solid black;*/
+		cursor: pointer;
+		
+	}
+
+	page:hover
+	{
+	
+		background-color: orange;
+	
+	}
+
+	/*page[page="1"]
+	{
+	
+		color: red;
+	
+	}*/
+
+	page[page=left]
+	{
+
+		font-family:"FontAwesome";
+	
+	}
+
+	page[page=right]
+	{
+
+		font-family:"FontAwesome";
+	
+	}
+}
+
+/*0~999*/
+@media only screen and (min-width: 0px) and (max-width: 999px) {
+
+	html
+	{
+
+		overflow-x: hidden;
+		overflow-y: auto;
+		font-family: Arial, sans-serif;
+
+	}
+
+	body
+	{
+
+		margin: 0px;
+		background: url("../image/pexels-karolina-grabowska-4041424.jpg");
+		background-size: cover;
+		background-position: center;
+  	background-repeat:  no-repeat;
+  
+	}
+
+	.mask
+	{
+	
+		position: absolute; 
+		display: none;
+		justify-content: center;
+		align-items: center; 
+		width: 100%; 
+		height: 100%; 
+		z-index: 5; 
+		background-color: rgba(0, 0, 0, 0.5); 
+	
+	}
+
+	.ill-container
+	{
+	
+		width: 30%; 
+		height: 30%; 
+		border-radius: 20px;
+		background-color: white;
+	
+	}
+
+	.ill-content
+	{
+	
+		display: flex; 
+		margin: 15% 10% 10% 10%; 
+		justify-content: center;
+		font-size: 24px;
+		font-weight: bold;
+	
+	}
+
+	.ill-close
+	{
+	
+		display: flex; 
+		margin: 0px 40%;
+		width: 20%; 
+		height: 40px;
+		line-height: 40px;
+		font-size: 20px;
+		justify-content: center;
+		border-radius: 10px;
+		background-color: #9868F0; 
+		cursor: pointer;
+	
+	}
+
+	.ill-close:hover
+	{
+	
+		background-color: #7B68F0;
+	
+	}
+
+	.ill-close:active
+	{
+	
+		background-color: #5D68F0;
+	
+	}
+
+	.bar
+	{
+
+		display: flex;
+		background-color: #2894FF;
+		box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
+
+	}
+
+	.bar-image
+	{
+
+		display: inline-block;
+		padding: 15px;
+
+	}
+
+	.logo
+	{	
+
+		border-radius: 50%;
+		height: 50px;
+		width: 50px;
+
+	}
+
+	.bar-title
+	{
+
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+
+	}
+	
+	.bar-openside
+	{
+	
+		margin: 30px 30px 30px 30px;
+		font-size: 20px;
+		font-family: FontAwesome;
+		color: white;
+		cursor: pointer;
+		
+	}
+
+	.company-ch-name
+	{
+
+		font-size: 20px;
+		font-weight: bold;
+		color: white;
+
+	}
+
+	.company-en-name
+	{
+	
+		color: white;
+	
+	}
+
+	workeare
+	{
+
+		display: flex;		
+		flex-direction: row;
+		width: 100%;
+
+	}
+
+	.big-container
+	{
+
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		top: 60px;
+
+	}
+
+	.login-title
+	{
+
+		display: inline-block;
+
+	}
+
+	.icon
+	{
+	
+		padding: 8px;
+		display: inline-block;
+		font-size: 27px;
+		color: gray;
+	
+	}
+
+	.caption
+	{
+
+		padding: 0px;
+		margin: 0px;
+		font-size: 23px;
+		font-weight: bold;
+		color: gray;
+
+	}
+
+	.contain
+	{
+
+		display: flex;
+		justify-content: center;
+		align-items: center; 
+
+	}
+
+	.main	
+	{
+
+		display: flex;
+		/*background-color: #FFE6FF;*/
+		justify-content: center;
+		align-items: center;
+		padding: 20px;
+		border: 3px solid #66B3FF;
+		border-image: linear-gradient(to top, #66B3FF, #005AB5);
+		border-image-slice: 1;
+		box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5); 
+		background-color: white;
+	
+	}
+
+	.form
+	{
+
+		display: flex;
+		flex-direction: column;
+		/*background-color: #E6CAFF;*/
+	
+
+	}
+
+	.master-login
+	{
+
+		display: flex;
+		flex-direction: column;
+		padding: 10px;
+		font-family: 微軟正黑體;
+
+	}
+
+	.LIcontainer
+	{
+	
+		display: flex;
+		flex-direction: row;
+		margin-bottom: 15px;
+	
+	}
+
+	.label
+	{
+
+		width: 20%;
+		font-size: 20px;
+		font-weight: bold;
+		margin-left: 20px;
+		margin-top: 20px;
+		border: 2px solid black;
+		border-radius: 20px;
+		text-align: center;
+		padding: 1.5px 0px;
+		/*background-color: #DDDDFF;*/
+		color :	#004B97;
+
+	}
+
+	#username, #password 
+	{
+	
+		right: 12px;
+		top: 11.5px;
+  	width: 70%;
+  	height: 40px;
+  	border: none;
+  	padding: 20px;
+  	font-size: 18px;
+  	/*margin: 20px 0px;*/
+  	position: relative;
+  	background-color: transparent;
+  	border-bottom: 2px solid black;
+  	border-image: linear-gradient(to right, black, #66B3FF);
+  	border-image-slice: 1;
+	}
+
+	#username:focus, #password:focus 
+	{
+	
+		outline: none;
+  
+	}	
+
+	#login
+	{
+	
+		display: flex;
+  	align-items: center;
+  	justify-content: center;
+		position: relative;
+		margin-left: 4%;
+		width: 91%;
+		margin-top: 50px;
+		height: 40px;
+		border-radius: 20px;
+		font-size: 20px;
+		font-weight: bold;
+		cursor: pointer;
+		border: none;
+		color: white;
+		background: linear-gradient(to right, #84C1FF, #004B97);
+		box-shadow: 0px 5px 10px #0057ab;
+		transition: background 1s;
+
+	}
+
+	#login:after, #login:before
+	{
+	
+		content: '';
+		position: absolute;
+		top: 1%;
+		left: 0px;
+		width: 56px;
+		height: 100%;
+		z-index: -2;
+		border-radius: 25px;
+		background-color: transparent;
+		align-items: center;
+	
+	}
+
+
+	#login:hover
+	{
+	
+		z-index: 1;
+		background-color: transparent;
+
+	}
+
+	#login:before
+	{
+	
+		transition: 0.3s;
+		background: #7dbbfa;
+		z-index: -1;
+	
+	}
+
+	#login:hover:before
+	{
+	
+		width: 100%;
+	
+	}
+
+	#login:active:before
+	{
+		
+		background-color: #003D79;
+  	background-size: 100%;
+  	box-shadow: 0px 4px 8px #0065c8;
+	
+	}
+
+	.bottombar
+	{
+	
+		display: none;
+		position: absolute;
+		bottom: 0px;
+		right: 0px;
+		color: white;
+		font-size: 18px;
+		font-weight: bold;
+		font-family: "微軟正黑體";
+	
+	}
+
+
+	/*側邊選單*/
+	.sideMenu-container
+	{
+	
+		position: absolute;
+		display: none;
+		flex-direction: column;
+		width: 50vw;
+		background: linear-gradient(to bottom, #0072E3, #00CACA);
+		z-index: 5;
+		
+	}
+
+	.item-container
+	{
+	
+		display: flex;
+		flex-direction: row;
+		width: 100%;
+		height: 50px;
+		background-color: transparent;
+		cursor: pointer;
+		font-size: 16px;
+	
+	}
+
+	.item-container:hover	
+	{
+			
+		background: linear-gradient(to right, #FF88C2, #FFA488);
+			
+	}
+
+	.item-icon
+	{
+		
+		display: none;
+		position: relative;
+		top: 35%;
+		left: 3%;
+		height: auto;
+	
+	}
+
+	.item-icon > img
+	{
+	
+		width: 15px;
+	
+	}
+
+	.item-caption
+	{
+	
+		position: relative;
+		top: 30%;
+		left: 5%;
+		font-weight: bold;
+		font-family: "微軟正黑體";
+		color: white;
+	
+	}
+
+	.item-page
+	{
+		
+		position: absolute;
+		right: calc(100% - 95%);
+		margin-top: 9%;
+		font-size: 15px;
+		font-weight: bold;
+		font-family:"FontAwesome";
+		color: white;
+	
+	}
+
+	.detial-container
+	{
+	
+		display: none;
+		flex-direction: column;
+		width: auto;
+		background-color: transparent;
+	
+	}
+
+	.detial-caption
+	{
+	
+		padding: 10px;
+		font-size: 14px;
+		cursor: pointer;
+		color: white;
+	
+	}
+
+	.detial-name
+	{
+	
+		position: relative;
+		left: 15%;
+		font-weight: bold;
+		font-family: "微軟正黑體";
+		
+	}
+
+	.detial-caption:hover
+	{
+	
+		background: linear-gradient(to right, #FFFF33, #FFCC22);
+		/*font-size: 16px;*/
+		color: black;
+			
+	}
+	
+	.main-container
+	{
+	
+		display: flex;
+		flex-direction: column; 
+		width: 100%;
+	
+	}
+	
+	/*首頁*/
+	.home-container
+	{
+		
+		margin: 5%;
+		border-radius: 20px;
+		background-color: white;
+		
+	}
+	
+	.home
+	{
+		
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+		grid-gap: 20px;
+		margin: 5%;
+		/*background-color: red;*/
+		
+	}
+	
+	.home-item
+	{
+		
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+		border-radius: 10px;
+		background-color: #04c1d6;
+	
+		
+	}
+	
+	.shortcut-icon
+	{
+		
+		display: flex;
+		flex-direction: column;
+		
+	}
+	
+	.sc-icon
+	{
+		
+		position: relative;
+		margin: 2%;
+		
+	}
+	
+	.sc-icon > img
+	{
+		
+		width: 50px;
+		
+	}
+	
+	.sc-title
+	{
+		
+		font-size: 24px;
+		font-weight: bold;
+		color: #000570;
+		
+	}
+	
+	.shortcut
+	{
+		
+		display: flex;
+		flex-direction: column;
+		margin: 2%;
+		
+	}
+	
+	.shortcut-name
+	{
+		
+		margin: 2px;
+		font-size: 18px;
+		font-weight: bold;
+		border: 1px solid #888888;
+		border-radius: 20px;
+		color: #2887FA;
+		background-color: white;
+		cursor: pointer;
+		
+	}
+	
+	.shortcut-name:active
+	{
+		
+		background-color: #e0e0e0;
+		
+	}
+
+	/*工作區*/
+	.function-title
+	{
+	
+		margin: 2%;  
+		padding: 10px; 
+		text-align: center;
+		font-size: 28px;
+		font-weight: bold;
+		border-radius: 40px;
+		background: linear-gradient(to right, #56D8E1, #54A4E6);
+		color: black;
+		
+	}
+
+	.work-container
+	{
+	
+		height: auto;
+		margin: 0px 2%; 
+		padding: 2%; 
+		border-radius: 20px;
+		background-color: white;
+	
+	}
+
+	.toolBar
+	{
+	
+		display: flex;
+		margin: 2%;
+
+	}
+
+	.search-box
+	{
+	
+		display: flex;
+	
+	}
+
+	.addData, .deleteAll, .search
+	{
+
+		height: 20px;
+		margin-right: 10px;
+		padding: 5px;
+		font-size: 16px;
+		font-weight: bold;
+		font-family:FontAwesome, Arial;
+		border-radius: 5px;
+		background-color: #55A0E6;
+		cursor: pointer;
+		color: white;
+	
+	}
+
+	.addData:hover, .deleteAll:hover, .search:hover
+	{
+	
+		background-color: #558ae6;
+	
+	}
+
+	.input-search
+	{
+	
+		height: 25px;
+		margin-top: 1%;
+	
+	}
+
+	/*表單*/
+
+	tableContent[loc = report_table]
+	{
+	
+		display: table;
+		width: 95%;
+		margin: 2%;
+	
+	}
+
+	tableContent[loc = report_tr]
+	{
+		
+		display: block;
+		margin: 10px 0px;
+		border-bottom: 3px solid #50E6DA;
+
+	}
+
+	tableContent[loc = report_td][pos = title]
+	{
+	
+		display: none;
+		width: 5px;
+		padding: 0px 5px;
+		/*background-color: #50E6DA;*/
+		border-bottom: 3px solid #50E6DA;
+		font-size: 12px;
+		font-weight: bold;
+	
+	}
+
+	tableContent[loc = report_td][pos *= row_]
+	{
+	
+		display: block;
+		padding: 5px 2px;
+		font-size: 14px;
+		/*border-bottom: 1px dashed gray;*/
+	
+	}
+	
+	tableContent[loc = report_td][pos *= row_]:not([cell=update], [cell=delete])
+	{
+	
+		text-align: right;
+	
+	}
+	
+	
+	tableContent[loc = report_td][pos *= row_][moblie]:before
+	{
+		
+		content: attr(moblie);
+    font-weight: bold;
+    /*display: inline-block;*/
+    /*content: attr(data-title);*/
+    float: left;
+    font-size: 14px;
+		
+	}
+
+	detial_button[id = open_function]
+	{
+	
+		padding: 4px 6px;
+		border-radius: 4px;
+		background-color: #50DEE6;
+		cursor: pointer;
+
+	}
+
+	detial_button[id = open_function]:hover
+	{
+
+		background-color: #50AFE6;
+
+	}
+
+	detial_button[id = open_function]:active
+	{
+
+		background-color: #5078e6;
+
+	}
+
+	.update-container
+	{
+	
+		display: flex; 
+		flex-direction: column; 
+		align-items: center; 
+		background-color: white; 
+		margin: 2%; 
+		border-radius: 20px;
+	
+	}
+
+	.user-update
+	{
+	
+		margin: 2%; 
+		/*background-color: red; */
+		width: 80%; 
+	
+	}
+
+	.update-form
+	{
+	
+		display: flex;  
+		flex-direction: column;
+		margin: 5%;
+		padding: 5%; 
+		border-radius: 10px;
+		background-color: rgba(85, 210, 230, 0.5);
+	
+	}
+
+	.update-label
+	{
+	
+		display: flex;  
+		flex-direction: column;
+		/*background-color: orange;*/
+	
+	}
+
+	.lb-update
+	{
+	
+		margin: 7px 0px;
+		font-size: 18px;
+	
+	}
+
+	.update-input
+	{
+	
+		height: 35px;
+		font-size: 18px;
+	
+	}
+
+	.update
+	{
+	
+		height: 40px;
+		margin-top: 5%;
+		font-size: 16px;
+		font-weight: bold;
+		line-height: 45px;
+		text-align: center;
+		border-radius: 5px;
+		background-color: #55B6E6;
+		cursor: pointer;
+	
+	}
+
+	.update:hover
+	{
+	
+		background-color: #55A0E6;
+	
+	}
+
+	.update:active
+	{
+	
+		background-color: #558ae6;
+	
+	}
+
+	.selection-input
+	{
+	
+		height: 35px;
+		font-size: 18px;
+		cursor: pointer;
+	
+	}
+
+	.selection-input:hover
+	{
+	
+		border: 1.5px solid gray;
+		background-color: #BDDEDE;
+	
+	}
+
+	.selection-container
+	{
+	
+		display: flex; 
+		flex-direction: column;
+	
+	}
+
+	.selection-item-container
+	{
+	
+		display: none; 
+		flex-direction: column; 
+		z-index: 10px;
+		background-color: red;
+	
+	}
+
+	.selection-item
+	{
+	
+		border: 1px solid gray;
+		background-color: white;
+		padding: 10px 5px;
+		font-size: 18px;
+		cursor: pointer;
+	
+	}
+
+	.selection-item:hover
+	{
+	
+		background-color: #BDDEDE;
+	
+	}
+
+	page-container
+	{
+	
+		display: flex;
+		padding: 2px 0px 2px 20px;
+		margin: 1% 2%;
+		border-radius: 10px;
+		background-color: white;
+	
+	}
+
+	page
+	{
+	
+		padding: 5px;
+		margin: 2px;
+		font-weight: bold;
+		/*border: 1px solid black;*/
+		cursor: pointer;
+		
+	}
+
+	page:hover
+	{
+	
+		background-color: orange;
+	
+	}
+
+	page[page=left]
+	{
+
+		font-family:"FontAwesome";
+	
+	}
+
+	page[page=right]
+	{
+
+		font-family:"FontAwesome";
+	
+	}
+}

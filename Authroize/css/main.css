@@ -1,0 +1,3585 @@
+/*1500~3000*/
+@media only screen and (min-width: 1500px) and (max-width: 3000px) {
+
+	body 
+	{
+	
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    /*background: linear-gradient(to bottom, #FF9999, #3452db);*/
+    background-image: url('../image/pexels-pixabay-258149.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    overflow-y: hidden;
+    overflow-x: hidden;
+    
+	}
+
+	main
+	{
+	
+		font-family: Arial, sans-serif;
+    /*background: linear-gradient(to bottom, #FF9999, #3452db);*/
+    
+    background-color: transparent;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+	
+	}
+
+	workerea
+	{
+	
+		display: flex;
+		flex-direction: row;
+		height: 100%;
+	
+	}
+
+	login-container
+	{
+	
+		display: block;
+	
+	}
+
+	.test
+	{
+	
+		color: #FFFFFF;
+		font-weight: 900;
+		font-size: 80px;
+	
+	}
+
+	.textcolorwhite{
+	
+		color: #FFFFFF;
+	
+	}
+
+	.textcolorblack{
+	
+		color: black;
+	
+	}
+
+	.login-container 
+	{
+	
+    background-color: black;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    width: 700px; 
+    
+	}
+
+	.Change-container {
+	
+    background-color: #F7F7F7;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    width: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	}
+
+	.left 
+	{
+	
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    flex-direction: column;
+    
+	}
+
+	.image-centering 
+	{
+	
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+	}
+
+	.left img 
+	{
+	
+    max-width: 100%;
+    height: auto;
+    
+	}
+
+	image-text 
+	{
+
+    text-align: center;
+    
+	}
+
+	.right 
+	{
+	
+    flex: 1; /*調整右容器的寬度*/
+    padding: 35px 20px;
+    
+	}
+
+
+	.input-container, .input-container_password, .input-container_email
+	{
+		
+		position: relative;
+    margin: 15px 0;
+    
+	}
+
+	.input-container_reg-email
+	{
+		
+		position: relative;
+    
+	}
+
+	custom-label 
+	{
+	
+    display: block;
+    margin-bottom: 6px;
+    margin-top: 5px;
+    color: #FFFFFF;
+    font-weight: bold; 
+    
+	}
+	
+	.label
+	{
+	
+		display:flex;
+	
+	}
+
+
+	input 
+	{
+	
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    
+	}
+
+	.toggle-password 
+	{
+    position: absolute;
+    right: 15px; /* 將眼睛放在容器的最右側 */
+    top: 70%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 24px;
+    
+	}
+
+	.toggle-email 
+	{
+	
+    position: absolute;
+    right: 15px; 
+    top: 70%;
+    transform: translateY(-45%);
+    cursor: pointer;
+    font-size: 15px;
+    background-color: #FF0000;
+    padding: 4px;
+    font-weight: bold;
+    border-radius: 4px;
+    color: white;
+    
+	}
+
+	.toggle-email:hover
+	{
+	
+    background-color: #E00000;
+
+	}
+
+	.toggle-email:active
+	{
+	
+    background-color: #CE0000	;
+
+	}
+
+	.toggle-In-email 
+	{
+		
+    transform: translateY(-20%);
+    cursor: pointer;
+    font-size: 15px;
+    background-color: #FF8000;
+    padding: 5px;
+    font-weight: bold;
+    border-radius: 4px;
+    color: white;
+    margin-right: 20px;   
+    
+	}
+
+	.toggle-In-email:hover
+	{
+	
+    background-color: #E00000;
+
+	}
+
+	.toggle-In-email:active
+	{
+	
+    background-color: #CE0000	;
+
+	}
+
+	login-button 
+	{
+	
+		margin-top: 15px;
+		display: inline-block;
+    background: #3498db;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 16px;
+    width: 92%;
+    cursor: pointer;
+    font-weight: bold;
+    
+	}
+
+	login-button:hover 
+	{
+	
+    background: #0072E3;
+    
+	}
+
+	login-button:active 
+	{
+	
+    background: #0056b3; 
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    
+	}
+
+	.forgot-password 
+	{
+	
+    display: flex;
+    justify-content: space-between;
+    
+	}
+
+	.re-password
+	{
+	
+		width: 30%;
+	
+	}
+
+
+	.right-text_1,  .right-text_2, .right-text_terms, .right-text_privacy, .re-userinfo, .re-password, .right-text_CoUs
+	{
+	
+    cursor: pointer; 
+    color: #3498db;
+    transition: color 0.3s; 
+    
+	}
+
+	.right-text_1:hover,  .right-text_2:hover, .right-text_terms:hover, .right-text_privacy:hover, .re-userinfo:hover, .re-password:hover, .right-text_CoUs:hover
+	{
+	
+    color: #FF0000;
+    
+	}
+
+	reg-button, fp-button 
+	{
+	
+		margin-top: 5px;
+		display: inline-block;
+    background: #3498db;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 16px;
+    width: 96.3%;
+    cursor: pointer;
+    font-weight: bold
+    
+	}
+
+	reg-button:hover, fp-button:hover 
+	{
+	
+    background: #0072E3;
+    
+	}
+
+	reg-button:active, fp-button:active 
+	{
+	
+    background: #0056b3; 
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    
+	}
+
+	.ch-input
+	{
+	
+		margin-bottom: 10px;
+
+	}
+
+	ch-button 
+	{
+	
+		margin-top: 10px;
+		display: inline-block;
+    background: #3498db;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 16px;
+    width: 95.2%;
+    cursor: pointer;
+    font-weight: bold
+    
+	}
+
+	ch-button:hover
+	{
+	
+    background: #0072E3;
+    
+	}
+
+	ch-button:active
+	{
+	
+    background: #0056b3; 
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    
+	}
+
+	#terms-checkbox, #privacy-checkbox
+	{
+	
+		width: 4%;
+	
+	}
+
+	.checkbox_box-terms, .checkbox_box-privacy
+	{
+	
+		margin-top: 7px;
+		justify-content: space-between;
+		
+	}
+
+	#fp-form
+	{
+	
+		margin-top: 25px;
+	
+	}
+
+
+	.logout-button 
+	{
+	
+		background-color: #f33;
+		color: #fff;
+		padding: 10px;
+		border: none;
+		border-radius: 20px;
+		width: 50%;
+		margin-top: 10px;
+		cursor: pointer;
+		text-align: center;
+
+	}
+
+	.logout-button:hover 
+	{
+	
+		background-color: red;
+
+	}
+        
+	.logout-button:active 
+	{
+	
+		background: #CC0000; 
+		box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    
+	}
+
+	.product-left
+	{
+	
+		flex: 1;
+		display: flex;
+		align-items: left;
+		padding: 20px;
+		flex-direction: column;
+		/*color: blue;*/
+
+	}
+
+
+	.test2 {
+	
+		display: flex;
+	
+	}
+
+
+	unitContent[loc=report_table] {
+	
+		margin:0 auto;
+		width:98%;
+		display:table;
+	
+	}
+
+	unitContent[loc=report_tr] {
+	
+		display:table-row;
+	
+	}
+
+	unitContent[loc=report_td][pos=title] {
+	
+		display:table-cell;
+		padding:8 0;
+		/*color:#67677F;*/
+		font-size:16px;
+		/*font-family:"?L?n??????";*/
+		font-weight:bold;
+		border-bottom:2px solid #E8E8E8;
+	
+	}
+
+	unitContent[loc=report_td][pos*=row_] {
+	
+		display:table-cell;
+		padding:5 0;
+		/*color:#67677F;*/
+		font-size:15px;
+		/*font-family:"?L?n??????";*/
+		border-bottom:1px solid #E8E8E8;
+	
+	}
+
+	btn[id=open_detial] {
+	
+		cursor:hand;
+		background:#3498db;
+		color:#FFF;
+		text-align:center;
+		padding:5px;
+		border-radius: 4px;
+	
+	}     
+
+
+	btn[id=open_detial]:hover {
+	
+		background: #0072E3;
+	
+	}
+
+	btn[id=open_detial]:active {
+	
+    background: #0056b3; 
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    
+	}
+
+/*新的介面*/
+
+	.center-bar
+	{
+	
+		display: flex;
+		flex-direction: row;
+		width: 100%;
+		height: 70px;
+		background-color: #272727;
+		box-shadow: 0px 4px 8px black;
+	
+	}
+
+	.title-bar
+	{
+	
+		position: absolute;
+		top: 3%;
+		left: 2%;
+		font-size: 25px;
+		font-weight: bold;
+		color: white;
+	
+	}
+	
+	.openmenu
+	{
+	
+		display: none;
+		position: absolute;
+		top: 7%;
+		left: 2%;
+		font-family: "FontAwesome";
+		font-size: 20px;
+		color: white;
+		
+	}
+
+
+	.coUs-bar
+	{
+	
+		position: absolute;
+		top: 4%;
+		right: 8%;
+		font-size: 15px;
+		font-weight: bold;
+		color: white;
+		cursor: pointer;
+	
+	}
+
+	.ill-bar
+	{
+	
+		display: block;
+		position: absolute;
+		top: 4%;
+		right: 5.4%;
+		font-size: 15px;
+		font-weight: bold;
+		color: white;
+		cursor: pointer;
+	
+	}
+
+
+	.coUs-bar:hover, .ill-bar:hover
+	{
+	
+		color: red;
+	
+	}
+
+	.user-bar
+	{
+	
+		position: absolute;
+		top: 10px;
+		right: 2%;
+	
+	}
+
+	.user-photo
+	{
+	
+		width: 50px;
+		height: 50px;
+		border-radius: 50%;
+		cursor: pointer;
+	
+	}
+
+	.user-photo:hover
+	{
+	
+		box-shadow: 0px 0px 5px 5px rgba(106, 206, 252, 1);
+	
+	}
+
+/*新介面側邊選單*/
+
+	.Menu-container
+	{
+	
+		display: flex;
+		flex-direction: column;
+		height: 100%;
+		width: 15%;
+		background: linear-gradient(to bottom, 	#00AEAE	, #3A0088);
+		padding: 2% 0px; 
+	
+	}
+
+	.caption-container
+	{
+	
+		display: flex;
+		flex-direction: row;
+		height: 50px;
+		width: 100%;
+		font-size: 20px;
+		background-color: transparent;
+		cursor: pointer;
+	
+	}
+
+	.caption-container:hover
+	{
+	
+		font-size: 22px;
+		background: linear-gradient(to right, #60D1EB, #FFD1EB);
+	
+	}
+
+	.caption-icon
+	{
+	
+		font-size: 20px;
+		margin-left: 10%;
+		margin-top: 3%;
+		color: white;
+	
+	}
+
+	.caption-icon > img
+	{
+	
+		width: 30px;
+		height: 30px;
+	
+	}
+
+	.caption
+	{
+	
+		font-weight: bold;
+		margin-left: 10%;
+		margin-top: 5%;
+		color: white;
+	
+	}
+
+	.down
+	{
+	
+		position: relative;
+		color: white;
+		left: 25%;
+		top: 30%;
+		font-size: 25px;
+		font-family:"FontAwesome";
+		
+	}
+
+	.detial-container
+	{
+	
+		display: none;
+		flex-direction: column;
+		width: 100%;
+		height: auto;
+	
+	}
+
+	.item-container
+	{
+	
+		width: 100%;
+		height: 50px;
+		font-size: 18px;
+		background-color: transparent;
+		cursor: pointer;
+	
+	}
+
+	.item-container:hover
+	{
+	
+		background: linear-gradient(to right, #00FABA, #FFFABA);
+		font-size: 20px;
+	
+	}
+
+	.item-name
+	{
+	
+		position: absolute;
+		font-weight: bold;
+		padding: 10px;
+		margin-left: 4%;
+		margin-top: 5px;
+		color: white;
+	
+	}
+
+/*新介面上方選單彈出視窗*/
+
+	.user-op
+	{
+	
+		display: none; 
+		position: absolute; 
+		right: 1%; 
+		top: 70px; 
+		width: 15%; 
+		height: 20%; 
+		background-color: white; 
+		z-index: 1; 
+		border-radius: 20px; 
+		box-shadow: 0px 5px 5px 5px rgb(0, 0, 0, 0.5);
+	
+	}
+
+	.close-op
+	{
+	
+		position: absolute; 	
+		right: 5%; 
+		top: 5%;
+		font-family: "FontAwesome";
+		cursor: pointer;
+	
+	}
+
+	.otherwindow-userop
+	{
+	
+		position: relative; 
+		display: flex; 
+		flex-direction: column; 
+		align-items: center; 
+		width: 80%; 
+		height: 80%; 
+		left: calc((100% - 80%) / 2); 
+		top: calc((100% - 80%) / 2);
+	
+	}
+
+	.otherwindow-email
+	{
+	
+		font-size: 14px; 
+		font-weight: bold; 
+		margin-top: 5%;
+	
+	}
+
+	.otherwindow-name
+	{
+	
+		font-size: 18px; 
+		font-weight: bold; 
+		margin-top: 5%;
+	
+	}
+
+	.TandP
+	{
+	
+		display: flex; 
+		flex-direction: row; 
+		font-size: 14px; 
+		margin-top: 5%;
+	
+	}
+
+	.ill
+	{
+	
+		display: none; 
+		position: absolute; 
+		right: 1%; 
+		top: 70px; 
+		width: 15%; 
+		height: 80%; 
+		background-color: white; 
+		z-index: 0; 
+		border-radius: 20px; 
+		box-shadow: 0px 5px 5px 5px rgb(0, 0, 0, 0.5);
+	
+	}
+
+	.otherwindow-ill
+	{
+	
+		position: relative; 
+		display: flex; 
+		flex-direction: column; 
+		align-items: center;
+		width: 80%; 
+		height: 90%; 
+		left: calc((100% - 80%) / 2); 
+		top: calc((100% - 80%) / 2);
+	
+	}
+
+	.close-ill
+	{
+	
+		position: absolute; 
+		right: 5%; 
+		top: 2%;
+		font-family: "FontAwesome";
+		cursor: pointer;
+	
+	}
+
+	.ill-CoUs
+	{
+	
+		position: absolute; 
+		display: flex; 
+		flex-direction: row; 
+		font-size: 14px; 
+		bottom: 5%;
+	
+	}
+
+/*新介面主要功能*/
+
+	.main-container
+	{
+	
+		display: flex; 
+		width: 65%; 
+		height: 80%; 
+		margin: 3% calc((100% - 80%) / 2);  
+		border-radius: 20px; 
+		background-color: white;
+		box-shadow: 0 10px 10px 10px rgb(0, 0, 0, 0.5); 
+	
+	}
+
+	.big-container
+	{
+	
+		display: flex; 
+		flex-direction: column; 
+		width: 100%; 
+		margin: 2%;
+	
+	}
+
+	.title-info
+	{
+	
+		padding: 10px 30px;
+		margin: 50px; 
+		font-size: 50px; 
+		font-weight: bold; 
+		border-radius: 20px; 
+		background-color: #9DB3EB; 
+	
+	}
+
+	.info-container
+	{
+	
+		display: flex; 
+		flex-direction: row; 
+		margin: 0px 50px;
+	
+	}
+
+	.info
+	{
+	
+		display: flex; 
+		flex-direction: column; 
+		width: 50%; 
+		margin-left: 70px; 
+		margin-top: 50px;
+	
+	}
+
+	.ID-container
+	{
+	
+		display: flex;
+		flex-direction: row;
+		width: 100%;
+	
+	}
+
+	.ID
+	{
+	
+		margin: 2%;
+		width: 90%;
+		font-size: 35px;
+		word-wrap: break-word;
+ 		overflow-wrap: break-word;
+	
+	}
+
+	.email-container
+	{
+	
+		display: flex;
+		flex-direction: row;
+		width: 100%;
+	
+	}
+
+	.email
+	{
+	
+		margin: 2%;
+		width: 90%;
+		font-size: 25px;
+		word-wrap: break-word;
+  	overflow-wrap: break-word;
+	
+	}
+
+	.ID-pencil, .email-pencil
+	{
+	
+		position: relative;
+		top: 30%;
+		font-family: "FontAwesome";
+		font-size: 22px;
+		cursor: pointer;
+	
+	}
+
+	.ID-pencil:hover, .email-pencil:hover
+	{
+	
+		color: #7557EB;
+	
+	}
+
+	.ID-errormessage, .email-errormessage
+	{
+	
+		margin-left: 2%;
+	
+	}
+
+	.verify
+	{
+	
+		display: none;
+		margin-left: 2%;
+		width: 10%;
+		padding: 5px 0px;
+		border-radius: 5px;
+		text-align: center;
+		background-color: red;
+		color: white;
+		cursor: pointer;
+	
+	}
+
+	.verify:hover
+	{
+	
+		background-color: #FF4C01;
+		
+	}
+
+	.date
+	{
+	
+		margin: 2%;
+		font-size: 20px; 
+	
+	}
+
+	.changepassword
+	{
+	
+		width: 30%; 
+		margin: 2%; 
+		padding: 5px 0px;
+		text-align: center; 
+		font-size: 25px; 
+		border-radius: 30px; 
+		background-color: #AAB3EB; 
+		cursor: pointer;
+	
+	}
+
+	.changepassword:hover
+	{
+	
+		background-color: #91A4EB;
+	
+	}
+
+	.photo
+	{
+	
+		display: flex; 
+		flex-direction: column; 
+		width: 50%; 
+		height: 100%;
+	
+	}
+
+	.info-photo
+	{
+	
+		margin-left: 20%; 
+	
+	}
+	
+	.info-photo > img
+	{
+		
+		width: 85%;
+		border-radius: 50%;
+		border: 2px solid black;
+		
+	}
+
+	.change-photo
+	{
+	
+		border-radius: 10px; 
+		width: 40%; 
+		margin-top: 7%; 
+		margin-left: 35%; 
+		font-size: 20px; 
+		text-align: center; 
+		padding: 5px 0px;
+		background-color: #CF9DEB; 
+		cursor: pointer;
+	
+	}
+
+
+	.change-photo:hover
+	{
+	
+		background-color: #CF6FEB;
+	
+	}
+
+/*新介面聯絡我們*/
+
+	.cu-container
+	{
+	
+		overflow-x: hidden;
+		overflow-y: auto;
+		display: flex; 
+		flex-direction: row;
+		margin-left: 50px; 
+		margin-right: 50px; 
+		margin-bottom: 20px; 
+
+	}
+
+	.QA
+	{
+	
+		overflow-x: hidden; 
+		width: 50%; 
+		height: auto; 
+		font-size: 18px; 
+		line-height: 2;
+		padding: 10px;
+		white-space: pre-line; 
+		word-wrap: break-word; 
+	
+	}
+
+	.cu-form
+	{
+	
+		display: flex; 
+		flex-direction: column; 
+		width: 50%;
+		padding: 5px 20px;
+		/*border: 3px solid #66B3FF;
+		border-image: linear-gradient(to top, #66B3FF, #005AB5);
+		border-image-slice: 1;*/
+	
+	}
+
+	.cu-form-title
+	{
+	
+		font-size: 35px; 
+		font-weight: bold;
+		margin: 0px 0px 5px 20px;
+		color: #009FF0;
+	
+	}
+
+	.cu-label
+	{
+		
+		font-size: 18px;
+		font-weight: bold;
+		margin-left: 20px;
+		margin: 10px 0px 5px 20px;
+		color: #00C1EF;
+	
+	}
+
+	.cu-input
+	{
+	
+		width: 90%;
+		margin-left:20px;
+	
+	}
+
+	.cu-input-text
+	{
+	
+		width: 90%;
+		height: 500px;
+		margin-left:20px;
+
+	}
+
+	.cu-button
+	{
+	
+		width: 10%;
+		text-align: center;
+		padding: 5px;
+		margin: 15px 0px 0px 20px;
+		font-size: 18px;
+		font-weight: bold;
+		color: white;
+		background-color: #009FF0;
+		border-radius: 10px;
+		cursor: pointer;
+	
+	}
+
+	.cu-button:hover
+	{
+	
+		background-color: #0082F0;
+	
+	}
+
+	.cu-button:active
+	{
+	
+		background-color: #0066F0;
+	
+	}
+
+}
+
+/*1000~1499*/
+@media only screen and (min-width: 1000px) and (max-width: 1499px) {
+
+	body 
+	{
+	
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    /*background: linear-gradient(to bottom, #FF9999, #3452db);*/
+    background-image: url('../image/pexels-pixabay-258149.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    overflow-y: hidden;
+    overflow-x: hidden;
+    
+	}
+
+	main
+	{
+	
+		font-family: Arial, sans-serif;
+    /*background: linear-gradient(to bottom, #FF9999, #3452db);*/
+    
+    background-color: transparent;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+	
+	}
+
+	workerea
+	{
+	
+		display: flex;
+		flex-direction: row;
+		height: 100%;
+	
+	}
+
+	login-container
+	{
+	
+		display: block;
+	
+	}
+
+	.test
+	{
+	
+		color: #FFFFFF;
+		font-weight: 900;
+		font-size: 80px;
+	
+	}
+
+	.textcolorwhite{
+	
+		color: #FFFFFF;
+	
+	}
+
+	.textcolorblack{
+	
+		color: black;
+	
+	}
+
+	.login-container 
+	{
+	
+    background-color: black;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    width: 700px; 
+    
+	}
+
+	.Change-container {
+	
+    background-color: #F7F7F7;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    width: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	}
+
+	.left 
+	{
+	
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    flex-direction: column;
+    
+	}
+
+	.image-centering 
+	{
+	
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+	}
+
+	.left img 
+	{
+	
+    max-width: 100%;
+    height: auto;
+    
+	}
+
+	image-text 
+	{
+
+    text-align: center;
+    
+	}
+
+	.right 
+	{
+	
+    flex: 1; /*調整右容器的寬度*/
+    padding: 35px 20px;
+    
+	}
+
+
+	.input-container, .input-container_password, .input-container_email
+	{
+		
+		position: relative;
+    margin: 15px 0;
+    
+	}
+
+	.input-container_reg-email
+	{
+		
+		position: relative;
+    
+	}
+
+	custom-label 
+	{
+	
+    display: block;
+    margin-bottom: 6px;
+    margin-top: 5px;
+    color: #FFFFFF;
+    font-weight: bold; 
+    
+	}
+	
+	.label
+	{
+	
+		display:flex;
+	
+	}
+
+
+	input 
+	{
+	
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    
+	}
+
+	.toggle-password 
+	{
+    position: absolute;
+    right: 15px; /* 將眼睛放在容器的最右側 */
+    top: 70%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 24px;
+    
+	}
+
+	.toggle-email 
+	{
+	
+    position: absolute;
+    right: 15px; 
+    top: 70%;
+    transform: translateY(-45%);
+    cursor: pointer;
+    font-size: 15px;
+    background-color: #FF0000;
+    padding: 4px;
+    font-weight: bold;
+    border-radius: 4px;
+    color: white;
+    
+	}
+
+	.toggle-email:hover
+	{
+	
+    background-color: #E00000;
+
+	}
+
+	.toggle-email:active
+	{
+	
+    background-color: #CE0000	;
+
+	}
+
+	.toggle-In-email 
+	{
+		
+    transform: translateY(-20%);
+    cursor: pointer;
+    font-size: 15px;
+    background-color: #FF8000;
+    padding: 5px;
+    font-weight: bold;
+    border-radius: 4px;
+    color: white;
+    margin-right: 20px;   
+    
+	}
+
+	.toggle-In-email:hover
+	{
+	
+    background-color: #E00000;
+
+	}
+
+	.toggle-In-email:active
+	{
+	
+    background-color: #CE0000	;
+
+	}
+
+	login-button 
+	{
+	
+		margin-top: 15px;
+		display: inline-block;
+    background: #3498db;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 16px;
+    width: 92%;
+    cursor: pointer;
+    font-weight: bold;
+    
+	}
+
+	login-button:hover 
+	{
+	
+    background: #0072E3;
+    
+	}
+
+	login-button:active 
+	{
+	
+    background: #0056b3; 
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    
+	}
+
+	.forgot-password 
+	{
+	
+    display: flex;
+    justify-content: space-between;
+    
+	}
+
+	.re-password
+	{
+	
+		width: 30%;
+	
+	}
+
+
+	.right-text_1,  .right-text_2, .right-text_terms, .right-text_privacy, .re-userinfo, .re-password, .right-text_CoUs
+	{
+	
+    cursor: pointer; 
+    color: #3498db;
+    transition: color 0.3s; 
+    
+	}
+
+	.right-text_1:hover,  .right-text_2:hover, .right-text_terms:hover, .right-text_privacy:hover, .re-userinfo:hover, .re-password:hover, .right-text_CoUs:hover
+	{
+	
+    color: #FF0000;
+    
+	}
+
+	reg-button, fp-button 
+	{
+	
+		margin-top: 5px;
+		display: inline-block;
+    background: #3498db;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 16px;
+    width: 96.3%;
+    cursor: pointer;
+    font-weight: bold
+    
+	}
+
+	reg-button:hover, fp-button:hover 
+	{
+	
+    background: #0072E3;
+    
+	}
+
+	reg-button:active, fp-button:active 
+	{
+	
+    background: #0056b3; 
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    
+	}
+
+	.ch-input
+	{
+	
+		margin-bottom: 10px;
+
+	}
+
+	ch-button 
+	{
+	
+		margin-top: 10px;
+		display: inline-block;
+    background: #3498db;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 16px;
+    width: 95.2%;
+    cursor: pointer;
+    font-weight: bold
+    
+	}
+
+	ch-button:hover
+	{
+	
+    background: #0072E3;
+    
+	}
+
+	ch-button:active
+	{
+	
+    background: #0056b3; 
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    
+	}
+
+	#terms-checkbox, #privacy-checkbox
+	{
+	
+		width: 4%;
+	
+	}
+
+	.checkbox_box-terms, .checkbox_box-privacy
+	{
+	
+		margin-top: 7px;
+		justify-content: space-between;
+		
+	}
+
+	#fp-form
+	{
+	
+		margin-top: 25px;
+	
+	}
+
+
+	.logout-button 
+	{
+	
+		background-color: #f33;
+		color: #fff;
+		padding: 10px;
+		border: none;
+		border-radius: 20px;
+		width: 50%;
+		margin-top: 10px;
+		cursor: pointer;
+		text-align: center;
+
+	}
+
+	.logout-button:hover 
+	{
+	
+		background-color: red;
+
+	}
+        
+	.logout-button:active 
+	{
+	
+		background: #CC0000; 
+		box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    
+	}
+
+	.product-left
+	{
+	
+		flex: 1;
+		display: flex;
+		align-items: left;
+		padding: 20px;
+		flex-direction: column;
+		/*color: blue;*/
+
+	}
+
+
+	.test2 {
+	
+		display: flex;
+	
+	}
+
+
+	unitContent[loc=report_table] {
+	
+		margin:0 auto;
+		width:98%;
+		display:table;
+	
+	}
+
+	unitContent[loc=report_tr] {
+	
+		display:table-row;
+	
+	}
+
+	unitContent[loc=report_td][pos=title] {
+	
+		display:table-cell;
+		padding:8 0;
+		/*color:#67677F;*/
+		font-size:16px;
+		/*font-family:"?L?n??????";*/
+		font-weight:bold;
+		border-bottom:2px solid #E8E8E8;
+	
+	}
+
+	unitContent[loc=report_td][pos*=row_] {
+	
+		display:table-cell;
+		padding:5 0;
+		/*color:#67677F;*/
+		font-size:15px;
+		/*font-family:"?L?n??????";*/
+		border-bottom:1px solid #E8E8E8;
+	
+	}
+
+	btn[id=open_detial] {
+	
+		cursor:hand;
+		background:#3498db;
+		color:#FFF;
+		text-align:center;
+		padding:5px;
+		border-radius: 4px;
+	
+	}     
+
+
+	btn[id=open_detial]:hover {
+	
+		background: #0072E3;
+	
+	}
+
+	btn[id=open_detial]:active {
+	
+    background: #0056b3; 
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    
+	}
+
+/*新的介面*/
+
+	.center-bar
+	{
+	
+		display: flex;
+		flex-direction: row;
+		width: 100%;
+		height: 70px;
+		background-color: #272727;
+		box-shadow: 0px 4px 8px black;
+	
+	}
+
+	.title-bar
+	{
+	
+		position: absolute;
+		top: 3%;
+		left: 2%;
+		font-size: 25px;
+		font-weight: bold;
+		color: white;
+	
+	}
+	
+	.openmenu
+	{
+		
+		display: none;
+		position: absolute;
+		top: 7%;
+		left: 2%;
+		font-family: "FontAwesome";
+		font-size: 20px;
+		color: white;
+		
+	}
+
+	.coUs-bar
+	{
+	
+		position: absolute;
+		top: 4%;
+		right: 130px;
+		font-size: 15px;
+		font-weight: bold;
+		color: white;
+		cursor: pointer;
+	
+	}
+
+	.ill-bar
+	{
+	
+		display: block;
+		position: absolute;
+		top: 4%;
+		right: 90px;
+		font-size: 15px;
+		font-weight: bold;
+		color: white;
+		cursor: pointer;
+	
+	}
+
+
+	.coUs-bar:hover, .ill-bar:hover
+	{
+	
+		color: red;
+	
+	}
+
+	.user-bar
+	{
+	
+		position: absolute;
+		top: 10px;
+		right: 2%;
+	
+	}
+
+	.user-photo
+	{
+	
+		width: 50px;
+		height: 50px;
+		border-radius: 50%;
+		cursor: pointer;
+	
+	}
+
+	.user-photo:hover
+	{
+	
+		box-shadow: 0px 0px 5px 5px rgba(106, 206, 252, 1);
+	
+	}
+
+/*新介面側邊選單*/
+
+	.Menu-container
+	{
+	
+		display: flex;
+		flex-direction: column;
+		height: 100%;
+		width: 200px;
+		background: linear-gradient(to bottom, 	#00AEAE	, #3A0088);
+		padding: 2% 0px; 
+	
+	}
+
+	.caption-container
+	{
+	
+		display: flex;
+		flex-direction: row;
+		height: 50px;
+		width: 100%;
+		font-size: 15px;
+		background-color: transparent;
+		cursor: pointer;
+	
+	}
+
+	.caption-container:hover
+	{
+	
+		background: linear-gradient(to right, #60D1EB, #FFD1EB);
+	
+	}
+
+	.caption-icon
+	{
+	
+		font-size: 15px;
+		margin-left: 7%;
+		margin-top: 3%;
+		color: white;
+	
+	}
+
+	.caption-icon > img
+	{
+	
+		width: 30px;
+		height: 30px;
+	
+	}
+
+	.caption
+	{
+	
+		font-weight: bold;
+		margin-left: 10%;
+		margin-top: 5%;
+		color: white;
+	
+	}
+
+	.down
+	{
+	
+		position: relative;
+		color: white;
+		left: 20%;
+		top: 20%;
+		font-size: 20px;
+		font-family:"FontAwesome";
+		
+	}
+
+	.detial-container
+	{
+	
+		display: none;
+		flex-direction: column;
+		width: 100%;
+		height: auto;
+	
+	}
+
+	.item-container
+	{
+	
+		width: 100%;
+		height: 50px;
+		font-size: 14px;
+		background-color: transparent;
+		cursor: pointer;
+	
+	}
+
+	.item-container:hover
+	{
+	
+		background: linear-gradient(to right, #00FABA, #FFFABA);
+	
+	}
+
+	.item-name
+	{
+	
+		position: absolute;
+		font-weight: bold;
+		padding: 10px;
+		margin-left: 4%;
+		margin-top: 5px;
+		color: white;
+	
+	}
+
+/*新介面上方選單彈出視窗*/
+
+	.user-op
+	{
+	
+		display: none; 
+		position: absolute; 
+		right: 1%; 
+		top: 70px; 
+		width: 20%; 
+		height: 20%; 
+		background-color: white; 
+		z-index: 1; 
+		border-radius: 20px; 
+		box-shadow: 0px 5px 5px 5px rgb(0, 0, 0, 0.5);
+	
+	}
+
+	.close-op
+	{
+	
+		position: absolute; 	
+		right: 5%; 
+		top: 5%;
+		font-family: "FontAwesome";
+		cursor: pointer;
+	
+	}
+
+	.otherwindow-userop
+	{
+	
+		position: relative; 
+		display: flex; 
+		flex-direction: column; 
+		align-items: center; 
+		width: 80%; 
+		height: 80%; 
+		left: calc((100% - 80%) / 2); 
+		top: calc((100% - 80%) / 2);
+	
+	}
+
+	.otherwindow-email
+	{
+	
+		font-size: 14px; 
+		font-weight: bold; 
+		margin-top: 5%;
+	
+	}
+
+	.otherwindow-name
+	{
+	
+		font-size: 18px; 
+		font-weight: bold; 
+		margin-top: 5%;
+	
+	}
+
+	.TandP
+	{
+	
+		display: flex; 
+		flex-direction: row; 
+		font-size: 14px; 
+		margin-top: 5%;
+	
+	}
+
+	.ill
+	{
+	
+		display: none; 
+		position: absolute; 
+		right: 1%; 
+		top: 70px; 
+		width: 20%; 
+		height: 80%; 
+		background-color: white; 
+		z-index: 0; 
+		border-radius: 20px; 
+		box-shadow: 0px 5px 5px 5px rgb(0, 0, 0, 0.5);
+	
+	}
+
+	.otherwindow-ill
+	{
+	
+		position: relative; 
+		display: flex; 
+		flex-direction: column; 
+		align-items: center;
+		width: 80%; 
+		height: 90%; 
+		left: calc((100% - 80%) / 2); 
+		top: calc((100% - 80%) / 2);
+	
+	}
+
+	.close-ill
+	{
+	
+		position: absolute; 
+		right: 5%; 
+		top: 2%;
+		font-family: "FontAwesome";
+		cursor: pointer;
+	
+	}
+
+	.ill-CoUs
+	{
+	
+		position: absolute; 
+		display: flex; 
+		flex-direction: row; 
+		font-size: 14px; 
+		bottom: 5%;
+	
+	}
+
+/*新介面主要功能*/
+
+	.main-container
+	{
+	
+		display: flex; 
+		width: 65%; 
+		height: 80%; 
+		margin: 3% calc((100% - 80%) / 2);  
+		border-radius: 20px; 
+		background-color: white;
+		box-shadow: 0 10px 10px 10px rgb(0, 0, 0, 0.5); 
+	
+	}
+
+	.big-container
+	{
+	
+		display: flex; 
+		flex-direction: column; 
+		width: 100%; 
+		margin: 2%;
+	
+	}
+
+	.title-info
+	{
+	
+		padding: 10px 30px;
+		margin: 50px; 
+		font-size: 45px; 
+		font-weight: bold; 
+		border-radius: 20px; 
+		background-color: #9DB3EB; 
+	
+	}
+
+	.info-container
+	{
+	
+		display: flex; 
+		flex-direction: row; 
+		margin: 0px 50px;
+	
+	}
+
+	.info
+	{
+	
+		display: flex; 
+		flex-direction: column; 
+		width: 50%; 
+		margin-left: 40px; 
+		margin-top: 50px;
+	
+	}
+
+	.ID-container
+	{
+	
+		display: flex;
+		flex-direction: row;
+		width: 100%;
+	
+	}
+
+	.ID
+	{
+	
+		margin: 2%;
+		width: 90%;
+		font-size: 30px;
+		word-wrap: break-word;
+ 		overflow-wrap: break-word;
+	
+	}
+
+	.email-container
+	{
+	
+		display: flex;
+		flex-direction: row;
+		width: 100%;
+	
+	}
+
+	.email
+	{
+	
+		margin: 2%;
+		width: 90%;
+		font-size: 20px;
+		word-wrap: break-word;
+  	overflow-wrap: break-word;
+	
+	}
+
+	.ID-pencil, .email-pencil
+	{
+	
+		position: relative;
+		top: 30%;
+		font-family: "FontAwesome";
+		font-size: 22px;
+		cursor: pointer;
+	
+	}
+
+	.ID-pencil:hover, .email-pencil:hover
+	{
+	
+		color: #7557EB;
+	
+	}
+
+	.ID-errormessage, .email-errormessage
+	{
+	
+		margin-left: 2%;
+	
+	}
+
+	.verify
+	{
+	
+		display: none;
+		margin-left: 2%;
+		width: 10%;
+		padding: 5px 0px;
+		border-radius: 5px;
+		text-align: center;
+		background-color: red;
+		color: white;
+		cursor: pointer;
+	
+	}
+
+	.verify:hover
+	{
+	
+		background-color: #FF4C01;
+		
+	}
+
+	.date
+	{
+	
+		margin: 2%;
+		font-size: 20px; 
+	
+	}
+
+	.changepassword
+	{
+	
+		width: 40%; 
+		margin: 2%; 
+		padding: 5px 0px;
+		text-align: center; 
+		font-size: 20px; 
+		border-radius: 30px; 
+		background-color: #AAB3EB; 
+		cursor: pointer;
+	
+	}
+
+	.changepassword:hover
+	{
+	
+		background-color: #91A4EB;
+	
+	}
+
+	.photo
+	{
+	
+		display: flex; 
+		flex-direction: column; 
+		width: 50%; 
+		height: 100%;
+	
+	}
+
+	.info-photo
+	{
+	
+		margin-left: 20%; 
+	
+	}
+	
+	.info-photo > img
+	{
+		
+		width: 85%;
+		border-radius: 50%;
+		border: 2px solid black;
+		
+	}
+
+	.change-photo
+	{
+	
+		border-radius: 10px; 
+		width: 45%; 
+		margin-top: 7%; 
+		margin-left: 32%; 
+		font-size: 18px; 
+		text-align: center; 
+		padding: 5px 0px;
+		background-color: #CF9DEB; 
+		cursor: pointer;
+	
+	}
+
+
+	.change-photo:hover
+	{
+	
+		background-color: #CF6FEB;
+	
+	}
+
+/*新介面聯絡我們*/
+
+	.cu-container
+	{
+	
+		overflow-x: hidden;
+		overflow-y: auto;
+		display: flex; 
+		flex-direction: row;
+		margin-left: 50px; 
+		margin-right: 50px; 
+		margin-bottom: 20px; 
+
+	}
+
+	.QA
+	{
+	
+		overflow-x: hidden; 
+		width: 50%; 
+		height: auto; 
+		font-size: 18px; 
+		line-height: 2;
+		padding: 10px;
+		white-space: pre-line; 
+		word-wrap: break-word; 
+	
+	}
+
+	.cu-form
+	{
+	
+		display: flex; 
+		flex-direction: column; 
+		width: 50%;
+		padding: 5px 20px;
+		/*border: 3px solid #66B3FF;
+		border-image: linear-gradient(to top, #66B3FF, #005AB5);
+		border-image-slice: 1;*/
+	
+	}
+
+	.cu-form-title
+	{
+	
+		font-size: 35px; 
+		font-weight: bold;
+		margin: 0px 0px 5px 20px;
+		color: #009FF0;
+	
+	}
+
+	.cu-label
+	{
+		
+		font-size: 18px;
+		font-weight: bold;
+		margin-left: 20px;
+		margin: 10px 0px 5px 20px;
+		color: #00C1EF;
+	
+	}
+
+	.cu-input
+	{
+	
+		width: 90%;
+		margin-left:20px;
+	
+	}
+
+	.cu-input-text
+	{
+	
+		width: 90%;
+		height: 500px;
+		margin-left:20px;
+
+	}
+
+	.cu-button
+	{
+	
+		width: 10%;
+		text-align: center;
+		padding: 5px;
+		margin: 15px 0px 0px 20px;
+		font-size: 18px;
+		font-weight: bold;
+		color: white;
+		background-color: #009FF0;
+		border-radius: 10px;
+		cursor: pointer;
+	
+	}
+
+	.cu-button:hover
+	{
+	
+		background-color: #0082F0;
+	
+	}
+
+	.cu-button:active
+	{
+	
+		background-color: #0066F0;
+	
+	}
+
+}
+                        
+/*0~999*/
+@media only screen and (min-width: 0px) and (max-width: 999px) {
+
+	body 
+	{
+	
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    /*background: linear-gradient(to bottom, #FF9999, #3452db);*/
+    background-image: url('../image/pexels-pixabay-258149.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    overflow-y: hidden;
+    overflow-x: hidden;
+    
+	}
+
+	main
+	{
+	
+		font-family: Arial, sans-serif;
+    /*background: linear-gradient(to bottom, #FF9999, #3452db);*/
+    
+    background-color: transparent;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+	
+	}
+
+	workerea
+	{
+	
+		display: flex;
+		flex-direction: row;
+		height: 100%;
+	
+	}
+
+	login-container
+	{
+	
+		display: block;
+	
+	}
+
+	.test
+	{
+	
+		color: #FFFFFF;
+		font-weight: 900;
+		font-size: 80px;
+	
+	}
+
+	.textcolorwhite{
+	
+		color: #FFFFFF;
+	
+	}
+
+	.textcolorblack{
+	
+		color: black;
+	
+	}
+
+	.login-container 
+	{
+	
+    background-color: black;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    width: 700px; 
+    
+	}
+
+	.Change-container {
+	
+    background-color: #F7F7F7;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    width: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	}
+
+	.left 
+	{
+	
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    flex-direction: column;
+    
+	}
+
+	.image-centering 
+	{
+	
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+	}
+
+	.left img 
+	{
+	
+    max-width: 100%;
+    height: auto;
+    
+	}
+
+	image-text 
+	{
+
+    text-align: center;
+    
+	}
+
+	.right 
+	{
+	
+    flex: 1; /*調整右容器的寬度*/
+    padding: 35px 20px;
+    
+	}
+
+
+	.input-container, .input-container_password, .input-container_email
+	{
+		
+		position: relative;
+    margin: 15px 0;
+    
+	}
+
+	.input-container_reg-email
+	{
+		
+		position: relative;
+    
+	}
+
+	custom-label 
+	{
+	
+    display: block;
+    margin-bottom: 6px;
+    margin-top: 5px;
+    color: #FFFFFF;
+    font-weight: bold; 
+    
+	}
+	
+	.label
+	{
+	
+		display:flex;
+	
+	}
+
+
+	input 
+	{
+	
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    
+	}
+
+	.toggle-password 
+	{
+    position: absolute;
+    right: 15px; /* 將眼睛放在容器的最右側 */
+    top: 70%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 24px;
+    
+	}
+
+	.toggle-email 
+	{
+	
+    position: absolute;
+    right: 15px; 
+    top: 70%;
+    transform: translateY(-45%);
+    cursor: pointer;
+    font-size: 15px;
+    background-color: #FF0000;
+    padding: 4px;
+    font-weight: bold;
+    border-radius: 4px;
+    color: white;
+    
+	}
+
+	.toggle-email:hover
+	{
+	
+    background-color: #E00000;
+
+	}
+
+	.toggle-email:active
+	{
+	
+    background-color: #CE0000	;
+
+	}
+
+	.toggle-In-email 
+	{
+		
+    transform: translateY(-20%);
+    cursor: pointer;
+    font-size: 15px;
+    background-color: #FF8000;
+    padding: 5px;
+    font-weight: bold;
+    border-radius: 4px;
+    color: white;
+    margin-right: 20px;   
+    
+	}
+
+	.toggle-In-email:hover
+	{
+	
+    background-color: #E00000;
+
+	}
+
+	.toggle-In-email:active
+	{
+	
+    background-color: #CE0000	;
+
+	}
+
+	login-button 
+	{
+	
+		margin-top: 15px;
+		display: inline-block;
+    background: #3498db;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 16px;
+    width: 92%;
+    cursor: pointer;
+    font-weight: bold;
+    
+	}
+
+	login-button:hover 
+	{
+	
+    background: #0072E3;
+    
+	}
+
+	login-button:active 
+	{
+	
+    background: #0056b3; 
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    
+	}
+
+	.forgot-password 
+	{
+	
+    display: flex;
+    justify-content: space-between;
+    
+	}
+
+	.re-password
+	{
+	
+		width: 30%;
+	
+	}
+
+
+	.right-text_1,  .right-text_2, .right-text_terms, .right-text_privacy, .re-userinfo, .re-password, .right-text_CoUs
+	{
+	
+    cursor: pointer; 
+    color: #3498db;
+    transition: color 0.3s; 
+    
+	}
+
+	.right-text_1:hover,  .right-text_2:hover, .right-text_terms:hover, .right-text_privacy:hover, .re-userinfo:hover, .re-password:hover, .right-text_CoUs:hover
+	{
+	
+    color: #FF0000;
+    
+	}
+
+	reg-button, fp-button 
+	{
+	
+		margin-top: 5px;
+		display: inline-block;
+    background: #3498db;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 16px;
+    width: 96.3%;
+    cursor: pointer;
+    font-weight: bold
+    
+	}
+
+	reg-button:hover, fp-button:hover 
+	{
+	
+    background: #0072E3;
+    
+	}
+
+	reg-button:active, fp-button:active 
+	{
+	
+    background: #0056b3; 
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    
+	}
+
+	.ch-input
+	{
+	
+		margin-bottom: 10px;
+
+	}
+
+	ch-button 
+	{
+	
+		margin-top: 10px;
+		display: inline-block;
+    background: #3498db;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 16px;
+    width: 95.2%;
+    cursor: pointer;
+    font-weight: bold
+    
+	}
+
+	ch-button:hover
+	{
+	
+    background: #0072E3;
+    
+	}
+
+	ch-button:active
+	{
+	
+    background: #0056b3; 
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    
+	}
+
+	#terms-checkbox, #privacy-checkbox
+	{
+	
+		width: 4%;
+	
+	}
+
+	.checkbox_box-terms, .checkbox_box-privacy
+	{
+	
+		margin-top: 7px;
+		justify-content: space-between;
+		
+	}
+
+	#fp-form
+	{
+	
+		margin-top: 25px;
+	
+	}
+
+
+	.logout-button 
+	{
+	
+		background-color: #f33;
+		color: #fff;
+		padding: 10px;
+		border: none;
+		border-radius: 20px;
+		width: 50%;
+		margin-top: 10px;
+		cursor: pointer;
+		text-align: center;
+
+	}
+
+	.logout-button:hover 
+	{
+	
+		background-color: red;
+
+	}
+        
+	.logout-button:active 
+	{
+	
+		background: #CC0000; 
+		box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    
+	}
+
+	.product-left
+	{
+	
+		flex: 1;
+		display: flex;
+		align-items: left;
+		padding: 20px;
+		flex-direction: column;
+		/*color: blue;*/
+
+	}
+
+
+	.test2 {
+	
+		display: flex;
+	
+	}
+
+
+	unitContent[loc=report_table] {
+	
+		margin:0 auto;
+		width:98%;
+		display:table;
+	
+	}
+
+	unitContent[loc=report_tr] {
+	
+		display:table-row;
+	
+	}
+
+	unitContent[loc=report_td][pos=title] {
+	
+		display:table-cell;
+		padding:8 0;
+		/*color:#67677F;*/
+		font-size:16px;
+		/*font-family:"?L?n??????";*/
+		font-weight:bold;
+		border-bottom:2px solid #E8E8E8;
+	
+	}
+
+	unitContent[loc=report_td][pos*=row_] {
+	
+		display:table-cell;
+		padding:5 0;
+		/*color:#67677F;*/
+		font-size:15px;
+		/*font-family:"?L?n??????";*/
+		border-bottom:1px solid #E8E8E8;
+	
+	}
+
+	btn[id=open_detial] {
+	
+		cursor:hand;
+		background:#3498db;
+		color:#FFF;
+		text-align:center;
+		padding:5px;
+		border-radius: 4px;
+	
+	}     
+
+
+	btn[id=open_detial]:hover {
+	
+		background: #0072E3;
+	
+	}
+
+	btn[id=open_detial]:active {
+	
+    background: #0056b3; 
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    
+	}
+
+/*新的介面*/
+
+	.center-bar
+	{
+	
+		display: flex;
+		flex-direction: row;
+		width: 100%;
+		height: 70px;
+		background-color: #272727;
+		box-shadow: 0px 4px 8px black;
+	
+	}
+
+	.title-bar
+	{
+	
+		position: absolute;
+		top: 3%;
+		left: 2%;
+		font-size: 18px;
+		font-weight: bold;
+		color: white;
+	
+	}
+	
+	.openmenu
+	{
+		
+		position: absolute;
+		top: 7%;
+		left: 2%;
+		font-family: "FontAwesome";
+		font-size: 20px;
+		color: white;
+		
+	}
+
+	.coUs-bar
+	{
+	
+		position: absolute;
+		top: 6%;
+		right: 100px;
+		font-size: 15px;
+		font-weight: bold;
+		color: white;
+		cursor: pointer;
+	
+	}
+
+	.ill-bar
+	{
+	
+		display: block;
+		position: absolute;
+		top: 6%;
+		right: 60px;
+		font-size: 15px;
+		font-weight: bold;
+		color: white;
+		cursor: pointer;
+	
+	}
+
+
+	.coUs-bar:hover, .ill-bar:hover
+	{
+	
+		color: red;
+	
+	}
+
+	.user-bar
+	{
+	
+		position: absolute;
+		top: 10px;
+		right: 2%;
+	
+	}
+
+	.user-photo
+	{
+	
+		width: 50px;
+		height: 50px;
+		border-radius: 50%;
+		cursor: pointer;
+	
+	}
+
+	.user-photo:hover
+	{
+	
+		box-shadow: 0px 0px 5px 5px rgba(106, 206, 252, 1);
+	
+	}
+
+/*新介面側邊選單*/
+
+	.Menu-container
+	{
+	
+		position: absolute;
+		display: none;
+		flex-direction: column;
+		width: 50%;
+		background: linear-gradient(to bottom, 	#00AEAE	, #3A0088);
+		padding: 2% 0px; 
+		z-index: 5;
+	
+	}
+
+	.caption-container
+	{
+	
+		display: flex;
+		flex-direction: row;
+		height: 50px;
+		width: 100%;
+		font-size: 15px;
+		background-color: transparent;
+		cursor: pointer;
+	
+	}
+
+	.caption-icon
+	{
+	
+		font-size: 15px;
+		margin-left: 7%;
+		margin-top: 3%;
+		color: white;
+	
+	}
+
+	.caption-icon > img
+	{
+	
+		width: 30px;
+		height: 30px;
+	
+	}
+
+	.caption
+	{
+	
+		font-weight: bold;
+		margin-left: 10%;
+		margin-top: 5%;
+		color: white;
+	
+	}
+
+	.down
+	{
+	
+		position: relative;
+		color: white;
+		left: 20%;
+		top: 20%;
+		font-size: 20px;
+		font-family: "FontAwesome";
+		
+	}
+
+	.detial-container
+	{
+	
+		display: none;
+		flex-direction: column;
+		width: 100%;
+		height: auto;
+	
+	}
+
+	.item-container
+	{
+	
+		width: 100%;
+		height: 50px;
+		font-size: 18px;
+		background-color: transparent;
+		cursor: pointer;
+	
+	}
+	
+	.item-name
+	{
+	
+		position: absolute;
+		font-weight: bold;
+		padding: 10px;
+		margin-left: 4%;
+		margin-top: 5px;
+		color: white;
+	
+	}
+
+/*新介面上方選單彈出視窗*/
+
+	.user-op
+	{
+	
+		display: none; 
+		position: absolute; 
+		right: 1%; 
+		top: 70px; 
+		width:  60%; 
+		height: 28%; 
+		background-color: white; 
+		z-index: 1; 
+		border-radius: 20px; 
+		box-shadow: 0px 5px 5px 5px rgb(0, 0, 0, 0.5);
+	
+	}
+
+	.close-op
+	{
+	
+		position: absolute; 	
+		right: 5%; 
+		top: 5%;
+		font-family: "FontAwesome";
+		cursor: pointer;
+	
+	}
+
+	.otherwindow-userop
+	{
+	
+		position: relative; 
+		display: flex; 
+		flex-direction: column; 
+		align-items: center; 
+		width: 80%; 
+		height: 80%; 
+		left: calc((100% - 80%) / 2); 
+		top: calc((100% - 80%) / 2);
+	
+	}
+
+	.otherwindow-email
+	{
+	
+		font-size: 14px; 
+		font-weight: bold; 
+		margin-top: 5%;
+	
+	}
+
+	.otherwindow-name
+	{
+	
+		font-size: 18px; 
+		font-weight: bold; 
+		margin-top: 5%;
+	
+	}
+
+	.TandP
+	{
+	
+		display: flex; 
+		flex-direction: row; 
+		font-size: 14px; 
+		margin-top: 5%;
+	
+	}
+
+	.ill
+	{
+	
+		display: none; 
+		position: absolute; 
+		right: 1%; 
+		top: 70px; 
+		width: 60%; 
+		height: 80%; 
+		background-color: white; 
+		z-index: 0; 
+		border-radius: 20px; 
+		box-shadow: 0px 5px 5px 5px rgb(0, 0, 0, 0.5);
+	
+	}
+
+	.otherwindow-ill
+	{
+	
+		position: relative; 
+		display: flex; 
+		flex-direction: column; 
+		align-items: center;
+		width: 80%; 
+		height: 90%; 
+		left: calc((100% - 80%) / 2); 
+		top: calc((100% - 80%) / 2);
+	
+	}
+
+	.close-ill
+	{
+	
+		position: absolute; 
+		right: 5%; 
+		top: 2%;
+		font-family: "FontAwesome";
+		cursor: pointer;
+	
+	}
+
+	.ill-CoUs
+	{
+	
+		position: absolute; 
+		display: flex; 
+		flex-direction: row; 
+		font-size: 14px; 
+		bottom: 5%;
+	
+	}
+
+/*新介面主要功能*/
+
+	.main-container
+	{
+	
+		display: flex; 
+		width: 100%; 
+		height: 80%; 
+		margin: 3% calc((100% - 80%) / 2);  
+		border-radius: 20px; 
+		background-color: white;
+		box-shadow: 0 10px 10px 10px rgb(0, 0, 0, 0.5); 
+	
+	}
+
+	.big-container
+	{
+	
+		display: flex; 
+		flex-direction: column; 
+		width: 100%; 
+		margin: 2%;
+	
+	}
+
+	.title-info
+	{
+	
+		padding: 10px 30px;
+		margin: 1%; 
+		font-size: 45px; 
+		font-weight: bold; 
+		border-radius: 20px; 
+		background-color: #9DB3EB; 
+	
+	}
+
+	.info-container
+	{
+	
+		display: flex; 
+		flex-direction: column; 
+	
+	}
+
+	.info
+	{
+	
+		display: flex; 
+		flex-direction: column; 
+		width: 100%; 
+	
+	}
+
+	.ID-container
+	{
+	
+		display: flex;
+		flex-direction: row;
+		width: 100%;
+	
+	}
+
+	.ID
+	{
+	
+		margin: 2%;
+		width: 90%;
+		font-size: 30px;
+		word-wrap: break-word;
+ 		overflow-wrap: break-word;
+	
+	}
+
+	.email-container
+	{
+	
+		display: flex;
+		flex-direction: row;
+		width: 100%;
+	
+	}
+
+	.email
+	{
+	
+		margin: 2%;
+		width: 90%;
+		font-size: 25px;
+		word-wrap: break-word;
+  	overflow-wrap: break-word;
+	
+	}
+
+	.ID-pencil, .email-pencil
+	{
+	
+		position: relative;
+		top: 30%;
+		font-family: "FontAwesome";
+		font-size: 22px;
+		cursor: pointer;
+	
+	}
+
+	.ID-pencil:hover, .email-pencil:hover
+	{
+	
+		color: #7557EB;
+	
+	}
+
+	.ID-errormessage, .email-errormessage
+	{
+	
+		margin-left: 2%;
+	
+	}
+
+	.verify
+	{
+	
+		display: none;
+		margin-left: 2%;
+		width: 10%;
+		padding: 5px 0px;
+		border-radius: 5px;
+		text-align: center;
+		background-color: red;
+		color: white;
+		cursor: pointer;
+	
+	}
+
+	.verify:hover
+	{
+	
+		background-color: #FF4C01;
+		
+	}
+
+	.date
+	{
+	
+		margin: 2%;
+		font-size: 20px; 
+	
+	}
+
+	.changepassword
+	{
+	
+		width: 40%; 
+		margin: 5%; 
+		padding: 5px 0px;
+		text-align: center; 
+		font-size: 18px; 
+		border-radius: 30px; 
+		background-color: #AAB3EB; 
+		cursor: pointer;
+	
+	}
+
+	.changepassword:hover
+	{
+	
+		background-color: #91A4EB;
+	
+	}
+
+	.photo
+	{
+	
+		display: flex; 
+		flex-direction: column; 
+		width: 95%; 
+		height: 100%;
+	
+	}
+
+	.info-photo
+	{
+	
+		margin-left: 20%; 
+	
+	}
+	
+	.info-photo > img
+	{
+		
+		width: 85%;
+		border-radius: 50%;
+		border: 2px solid black;
+		
+	}
+
+	.change-photo
+	{
+	
+		border-radius: 10px; 
+		width: 45%; 
+		margin-top: 7%; 
+		margin-left: 32%; 
+		font-size: 18px; 
+		text-align: center; 
+		padding: 5px 0px;
+		background-color: #CF9DEB; 
+		cursor: pointer;
+	
+	}
+
+
+	.change-photo:hover
+	{
+	
+		background-color: #CF6FEB;
+	
+	}
+
+/*新介面聯絡我們*/
+
+	.cu-container
+	{
+	
+		overflow-x: hidden;
+		overflow-y: auto;
+		display: flex; 
+		flex-direction: column;
+
+	}
+
+	.QA
+	{
+	
+		overflow-x: hidden; 
+		display: none;
+		width: 100%; 
+		height: 100%; 
+		font-size: 18px; 
+		line-height: 2;
+		padding: 10px;
+		white-space: pre-line; 
+		word-wrap: break-word; 
+	
+	}
+
+	.cu-form
+	{
+	
+		display: flex; 
+		flex-direction: column; 
+		width: 100%;
+		/*border: 3px solid #66B3FF;
+		border-image: linear-gradient(to top, #66B3FF, #005AB5);
+		border-image-slice: 1;*/
+	
+	}
+
+	.cu-form-title
+	{
+	
+		font-size: 35px; 
+		font-weight: bold;
+		margin: 0px 0px 5px 20px;
+		color: #009FF0;
+	
+	}
+
+	.cu-label
+	{
+		
+		font-size: 18px;
+		font-weight: bold;
+		margin-left: 20px;
+		margin: 10px 0px 5px 20px;
+		color: #00C1EF;
+	
+	}
+
+	.cu-input
+	{
+	
+		width: 90%;
+		margin-left:20px;
+	
+	}
+
+	.cu-input-text
+	{
+	
+		width: 90%;
+		height: 150px;
+		margin-left:20px;
+
+	}
+
+	.cu-button
+	{
+	
+		width: 20%;
+		text-align: center;
+		padding: 5px;
+		margin: 15px 0px 0px 20px;
+		font-size: 18px;
+		font-weight: bold;
+		color: white;
+		background-color: #009FF0;
+		border-radius: 10px;
+		cursor: pointer;
+	
+	}
+
+	.cu-button:hover
+	{
+	
+		background-color: #0082F0;
+	
+	}
+
+	.cu-button:active
+	{
+	
+		background-color: #0066F0;
+	
+	}
+
+}
