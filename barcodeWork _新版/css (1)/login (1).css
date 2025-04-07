@@ -1,0 +1,240 @@
+
+	body *
+	{
+	
+		font-family: "微軟正黑體";
+	
+	}
+	
+	body
+	{
+	
+		 margin: 0px;
+		 background-position: right;
+		 background-image: url('../image/LoginBackground.png'); 
+		 background-size: cover;
+	
+	}
+	
+	login[box=login]
+	{
+	
+		 display: flex; 
+		 flex-direction: column; 
+		 justify-content: center; 
+		 align-items: center;
+		 height: 100%;
+	
+	}
+
+	login[box=window]
+	{
+	
+		 position: relative;
+		 display: block; 
+		 width: 500px; 
+		 height: 650px; 
+		 border-radius: 20px;
+		 border: rgba(0, 0, 0, 0.5) solid 2px;
+		 background-color: rgba(0, 0, 0, 0.25);
+		 box-shadow: 3px 2px 0.5px 3px rgba(0, 0, 0, 0.1);
+	
+	}
+	
+	login[box=title]
+	{
+	
+		  display: block; 
+		  width: 500px;
+		  padding-top: 20%;
+		  text-align: center;
+		  font-size: 28px;
+		  font-weight: bold;
+		  color: #005E89;
+	
+	}
+	
+	register[box=title]
+	{
+	
+		  display: block; 
+		  width: 500px;
+		  padding-top: 10%;
+		  text-align: center;
+		  font-size: 28px;
+		  font-weight: bold;
+		  color: #005E89;
+	
+	}
+	
+	
+	form[option=login], form[option=register]
+	{
+	
+		 display: flex; 
+		 flex-direction: column; 
+		 margin: 10% 5%;
+	
+	}
+	
+	login[box=inputIcon]
+	{
+	
+		  display: flex; 
+		  align-items: center;
+		  margin-bottom: 10px;
+	
+	}
+	
+	login[box=inputIcon][option=otherIP]
+	{
+		
+		display: none;
+		
+	}
+	
+	register[box=input]
+	{
+		
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin-bottom: 10px;
+		
+	}
+
+	login[pos=bottom], register[pos=bottom]
+	{
+	
+		  margin-top: 50px;
+	
+	}
+	
+		
+	img
+	{
+		
+		margin-right: 10px;	
+		
+	}
+	
+	input[pos=login], input[pos=register], select
+	{
+		
+		 padding: 10px;
+		 width: 100%;		
+		 height: 35px; 
+		 font-size: 18px;
+		 border-radius: 20px;
+		 border: none;
+	
+	}
+	
+	select
+	{
+		
+		padding: 0px 5px;
+		cursor: pointer;
+		
+	}
+	
+	login[option=login], register[option=register], login[option=setIP]
+	{
+	
+		 width: 100%;	
+		 padding: 12px; 
+		 font-size: 20px;
+		 font-weight: bold;
+		 text-align: center; 
+		 letter-spacing: 2;
+		 border-radius: 30px; 
+		 background-color: #007293;
+		 color: white;
+		 cursor: pointer;
+	
+	}
+	
+	login[option=login]:hover, register[option=register]:hover, login[option=setIP]:hover
+	{
+		
+		 background-color: #80CF55;
+		 color: black;
+		
+	}
+	
+	login[box=error], register[box=error]
+	{
+	
+		display: none;
+		text-align: center;	
+		font-size: 20px;
+		font-weight: bold;
+		color: red;
+		
+	}
+	
+	login[box=userInfo]
+	{
+		
+		 position: absolute; 
+		 bottom: 0px; 
+		 left: 10px;
+		
+	}
+	
+	login[box=FunctionColumn]
+	{
+		
+		display: flex;
+		justify-content: center;
+		width: 100%;
+		margin-top: 10px;
+		
+	}
+	
+	login[box=function]
+	{
+		
+		cursor: pointer;
+		
+	}
+	
+	login[box=function]:hover
+	{
+		
+		font-weight: bold;
+		color: red;
+		
+	}
+	
+	URLtext
+	{
+		
+		display: block;
+		font-size: 16px;
+		
+	}
+	
+	URLtext[box=URL]
+	{
+		
+		margin-top: 5px;
+		
+	}
+
+	/*login[pos=forget]
+	{
+		
+		margin-right: 5px;
+
+	}
+	
+	login[pos=register]
+	{
+		
+		margin-left: 5px;
+		
+	}*/
+	
+	
+	

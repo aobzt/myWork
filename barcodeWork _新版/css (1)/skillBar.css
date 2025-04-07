@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*:before, *:after {
+  box-sizing: inherit;
+}
+
+div[id=skill][pos=all] {
+  width: 100%;
+  padding: 30px;
+  display: block;
+  border-radius: 5px;
+  margin: auto;
+}
+
+div[id=skill][pos=station] {
+  width: 100%;
+  display: block;
+  border-radius: 5px;
+  margin: auto;
+}
+
+h2{
+  margin: 20px;
+  text-align: center;
+  font-weight: 700;
+}

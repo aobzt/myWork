@@ -1,0 +1,16 @@
+#clockBoard {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+canvas {
+    display: block;
+    margin: 0 auto;
+}
+
+#gaugeDescription {
+    /*margin-top: 20px;*/ /* 与画布的间距 */
+    font-size: 18px;
+    color: #333; /* 可根据需要调整颜色 */
+}
